@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{76F2C846-A126-47B5-97B3-C871DF1D5ADA}</ProjectGuid>
+    <RootNamespace>Unagi20</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>E:\Shagufta\Workspace\Opengl\Unagi_2.0\deps\glfw\include;E:\Shagufta\Workspace\Opengl\Unagi_2.0\deps\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>E:\Shagufta\Workspace\Opengl\Unagi_2.0\deps\glfw\lib\MVSC\glfw3.lib;E:\Shagufta\Workspace\Opengl\Unagi_2.0\deps\glew\lib\glew32.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Camera\Camera.cpp" />
+    <ClCompile Include="Geometry\MeshData\Edge\Edge.cpp" />
+    <ClCompile Include="Geometry\MeshData\Face\Face.cpp" />
+    <ClCompile Include="Geometry\MeshData\HalfEdgeElement\HalfEdgeElement.cpp" />
+    <ClCompile Include="Geometry\MeshData\HalfEdgeMesh\HalfEdgeMesh.cpp" />
+    <ClCompile Include="Geometry\MeshData\HalfEdge\HalfEdge.cpp" />
+    <ClCompile Include="Geometry\MeshData\MeshFilter\MeshFilter.cpp" />
+    <ClCompile Include="Geometry\MeshData\Mesh\Mesh.cpp" />
+    <ClCompile Include="Geometry\MeshData\Vertex\Vertex.cpp" />
+    <ClCompile Include="Maths\Matrix\Matrix3.cpp" />
+    <ClCompile Include="Maths\Matrix\Matrix4.cpp" />
+    <ClCompile Include="Maths\Vector\Vector2.cpp" />
+    <ClCompile Include="Maths\Vector\Vector3.cpp" />
+    <ClCompile Include="Maths\Vector\Vector4.cpp" />
+    <ClCompile Include="Shader\ShaderLoader.cpp" />
+    <ClCompile Include="Shape\Box\TestBox\TestBox.cpp" />
+    <ClCompile Include="Sources\Source.cpp" />
+    <ClCompile Include="Transform\Transform.cpp" />
+    <ClCompile Include="Windows\Window.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera\Camera.h" />
+    <ClInclude Include="Geometry\MeshData\Edge\Edge.h" />
+    <ClInclude Include="Geometry\MeshData\Face\Face.h" />
+    <ClInclude Include="Geometry\MeshData\HalfEdgeElement\HalfEdgeElement.h" />
+    <ClInclude Include="Geometry\MeshData\HalfEdgeMesh\HalfEdgeMesh.h" />
+    <ClInclude Include="Geometry\MeshData\HalfEdge\HalfEdge.h" />
+    <ClInclude Include="Geometry\MeshData\MeshFilter\MeshFilter.h" />
+    <ClInclude Include="Geometry\MeshData\Mesh\Mesh.h" />
+    <ClInclude Include="Geometry\MeshData\Vertex\Vertex.h" />
+    <ClInclude Include="Geometry\TypeDef.h" />
+    <ClInclude Include="Maths\Matrix\Matrix3.h" />
+    <ClInclude Include="Maths\Matrix\Matrix4.h" />
+    <ClInclude Include="Maths\Vector\Vector2.h" />
+    <ClInclude Include="Maths\Vector\Vector3.h" />
+    <ClInclude Include="Maths\Vector\Vector4.h" />
+    <ClInclude Include="Shader\ShaderLoader.h" />
+    <ClInclude Include="Shape\Box\TestBox\TestBox.h" />
+    <ClInclude Include="Transform\Transform.h" />
+    <ClInclude Include="Windows\Window.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ShaderFiles\FragmentShader.fs" />
+    <None Include="ShaderFiles\VertexShader.vs" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
