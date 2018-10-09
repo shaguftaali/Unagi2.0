@@ -120,6 +120,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Camera\Camera.cpp" />
+    <ClCompile Include="EventSystem\Input.cpp" />
     <ClCompile Include="Geometry\MeshData\Edge\Edge.cpp" />
     <ClCompile Include="Geometry\MeshData\Face\Face.cpp" />
     <ClCompile Include="Geometry\MeshData\HalfEdgeElement\HalfEdgeElement.cpp" />
@@ -127,13 +128,18 @@
     <ClCompile Include="Geometry\MeshData\HalfEdge\HalfEdge.cpp" />
     <ClCompile Include="Geometry\MeshData\MeshFilter\MeshFilter.cpp" />
     <ClCompile Include="Geometry\MeshData\Mesh\Mesh.cpp" />
+    <ClCompile Include="Graphics\Material\Material.cpp" />
+    <ClCompile Include="Graphics\Node\Node.cpp" />
+    <ClCompile Include="Graphics\Renderer\Renderer.cpp" />
     <ClCompile Include="Geometry\MeshData\Vertex\Vertex.cpp" />
     <ClCompile Include="Maths\Matrix\Matrix3.cpp" />
     <ClCompile Include="Maths\Matrix\Matrix4.cpp" />
     <ClCompile Include="Maths\Vector\Vector2.cpp" />
     <ClCompile Include="Maths\Vector\Vector3.cpp" />
     <ClCompile Include="Maths\Vector\Vector4.cpp" />
+    <ClCompile Include="Scene\Scene.cpp" />
     <ClCompile Include="Shader\ShaderLoader.cpp" />
+    <ClCompile Include="Shape\Box\TestBox2\TestBox2.cpp" />
     <ClCompile Include="Shape\Box\TestBox\TestBox.cpp" />
     <ClCompile Include="Sources\Source.cpp" />
     <ClCompile Include="Transform\Transform.cpp" />
@@ -141,6 +147,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Camera\Camera.h" />
+    <ClInclude Include="EventSystem\Input.h" />
     <ClInclude Include="Geometry\MeshData\Edge\Edge.h" />
     <ClInclude Include="Geometry\MeshData\Face\Face.h" />
     <ClInclude Include="Geometry\MeshData\HalfEdgeElement\HalfEdgeElement.h" />
@@ -148,6 +155,9 @@
     <ClInclude Include="Geometry\MeshData\HalfEdge\HalfEdge.h" />
     <ClInclude Include="Geometry\MeshData\MeshFilter\MeshFilter.h" />
     <ClInclude Include="Geometry\MeshData\Mesh\Mesh.h" />
+    <ClInclude Include="Graphics\Material\Material.h" />
+    <ClInclude Include="Graphics\Node\Node.h" />
+    <ClInclude Include="Graphics\Renderer\Renderer.h" />
     <ClInclude Include="Geometry\MeshData\Vertex\Vertex.h" />
     <ClInclude Include="Geometry\TypeDef.h" />
     <ClInclude Include="Maths\Matrix\Matrix3.h" />
@@ -155,7 +165,9 @@
     <ClInclude Include="Maths\Vector\Vector2.h" />
     <ClInclude Include="Maths\Vector\Vector3.h" />
     <ClInclude Include="Maths\Vector\Vector4.h" />
+    <ClInclude Include="Scene\Scene.h" />
     <ClInclude Include="Shader\ShaderLoader.h" />
+    <ClInclude Include="Shape\Box\TestBox2\TestBox2.h" />
     <ClInclude Include="Shape\Box\TestBox\TestBox.h" />
     <ClInclude Include="Transform\Transform.h" />
     <ClInclude Include="Windows\Window.h" />

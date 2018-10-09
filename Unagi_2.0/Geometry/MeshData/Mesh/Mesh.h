@@ -3,10 +3,20 @@
 #include <vector>
 #include "../../../Maths/Vector/Vector3.h"
 #include "../../../Maths/Vector/Vector2.h"
+#include "../HalfEdgeMesh/HalfEdgeMesh.h"
 
 using namespace Maths;
+
+
+
 namespace Geometry
 {
+    enum GeometryType
+    {
+        BOX,
+        SPHERE,
+    };
+
     struct RendererMeshData
     {
         std::vector<Vector3>        m_VertPos;
@@ -29,20 +39,31 @@ namespace Geometry
     {
     public:
         Mesh();
-    protected:
-        virtual void    InitMesh()=0;
 
-        virtual void SetVertices()=0;
-
-        virtual void SetNormal()=0;
-
-        virtual void SetIndices()=0;
-
-        RendererMeshData        rendererMeshData;
-
-        bool    isDirty;
+        void BuildHalfEdgeMesh();
 
         int numOfVertex;
 
+        std::vector<Vector3>    m_VertexPos;
+        std::vector<std::vector<int>>   m_Faces;
+        std::vector<Vector3>    m_VertNorm;
+
+        HalfEdgeMesh    halfEdgeMesh;
+
+        RendererMeshData        renderMeshData;
+
+    protected:
+        virtual void    InitMesh();
+
+        virtual void SetVertices();
+
+        virtual void SetNormal();
+
+        virtual void SetIndices();
+
+
+        bool    isDirty;
+
+        void UpdateRenderMeshData();
     };
 }

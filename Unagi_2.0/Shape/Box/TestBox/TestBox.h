@@ -11,7 +11,9 @@ using namespace std;
 using namespace Maths;
 using namespace Shader;
 using namespace Geometry;
-namespace Shape
+
+
+namespace Geometry
 {
     class TestBox:Mesh
     {

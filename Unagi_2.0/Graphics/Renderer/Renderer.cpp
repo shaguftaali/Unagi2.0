@@ -48,6 +48,7 @@ namespace Graphics
 
     void Renderer::Render(Three_D::Camera* m_CameraPtr,  Transform* a_trans)
     {
+        m_CameraPtr->UpdateMatrixs();
         m_Material.GetShader()->Use();
         m_MeshFilterPtr->BindVertexGLData();
         m_MeshFilterPtr->BindEBOData();

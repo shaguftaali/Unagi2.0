@@ -20,20 +20,52 @@ namespace Three_D
     }
     Matrix4 Camera::GetLookMatrix()
     {
-        if(isDirty)
+      /*  if(isDirty)
         {
             SetLookAtMatrix(position, up);
-        }
+        }*/
         return viewMatrix;
     }
     Matrix4 Camera::GetProjectionMatrix()
     {
-        if (isDirty)
+       /* if (isDirty)
         {
             SetProjectionMatrix();
-        }
+        }*/
         return projectionMatrix;
     }
+
+    void Camera::UpdateMatrixs()
+    {
+        this;
+        if (isDirty)
+        {
+            SetLookAtMatrix(position, up);
+            SetProjectionMatrix();
+            isDirty = false;
+        }
+    }
+    
+    void Camera::SetPosition(Vector3 a_pos)
+    {
+        this;
+        isDirty = true;
+        position = a_pos;
+    }
+
+    void Camera::SetUp(Vector3 a_Up)
+    {
+        isDirty = true;
+        up = a_Up;
+    }
+
+    void Camera::SetTarget(Vector3 a_target)
+    {
+        isDirty = true;
+        eyeDirection = (a_target - position);
+    }
+
+
     void Camera::SetLookAtMatrix(Vector3 a_Position,Vector3 a_Up)
     {
         a_Up = Vector3(0, 1, 0);

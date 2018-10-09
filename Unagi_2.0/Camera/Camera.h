@@ -22,6 +22,13 @@ namespace Three_D
         Matrix4 GetLookMatrix();
         Matrix4 GetProjectionMatrix();
 
+        void UpdateMatrixs();
+
+        void SetPosition(Vector3 a_pos);
+        void SetUp(Vector3 a_Up);
+        void SetTarget(Vector3 a_target);
+        //void SetTransform(Vector3 a_pos,Vector3 a_up,Vector3)
+
     private:
         void SetLookAtMatrix(Vector3 a_Position, Vector3 a_Up);
         void SetProjectionMatrix();
