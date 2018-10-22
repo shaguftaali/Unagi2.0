@@ -1,4 +1,4 @@
-﻿Build started 09-10-2018 15:32:37.
+﻿Build started 09-10-2018 16:33:38.
 Environment at start of build:
 ALLUSERSPROFILE = C:\ProgramData
 APPDATA = C:\Users\suraj.s\AppData\Roaming
@@ -63,8 +63,8 @@ VSSKUEDITION = Community
 VULKAN_SDK = C:\VulkanSDK\1.1.70.1
 windir = C:\Windows
 
-15:32:37.086     1>Project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" on node 2 (Build target(s)).
-15:32:37.086     1>Initial Properties:
+16:33:38.244     1>Project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" on node 2 (Build target(s)).
+16:33:38.244     1>Initial Properties:
                    _AfterCompileWinFXInternalDependsOn = 
                            PrepareResourcesForSatelliteAssemblies;
                            MergeLocalizationDirectives;
@@ -1282,8 +1282,8 @@ windir = C:\Windows
                    XamlTemporaryAssemblyName = Unagi_2.0
                    YieldDuringToolExecution = true
 
-15:32:37.086     1>Building with tools version "15.0".
-15:32:37.086     1>Target "_CheckForInvalidConfigurationAndPlatform: (TargetId:2)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_PrepareForBuild" depends on it):
+16:33:38.244     1>Building with tools version "15.0".
+16:33:38.244     1>Target "_CheckForInvalidConfigurationAndPlatform: (TargetId:2)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_PrepareForBuild" depends on it):
                    Set Property: _InvalidConfigurationMessageText=The OutputPath property is not set for project 'Unagi_2.0.vcxproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='Win32'.
                    Set Property: _InvalidConfigurationMessageText=The OutputPath property is not set for project 'Unagi_2.0.vcxproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='Win32'.  This error may also appear if some other project is trying to follow a project-to-project reference to this project, this project has been unloaded or is not included in the solution, and the referencing project does not build using the same or an equivalent Configuration or Platform.
                    Task "Error" skipped, due to false condition; ( '$(_InvalidConfigurationError)' == 'true' ) was evaluated as ( '' == 'true' ).
@@ -1302,8 +1302,8 @@ windir = C:\Windows
                    Task "Error" skipped, due to false condition; ('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)')) was evaluated as ('E:\Shagufta\Workspace\Opengl\Unagi_2.0\Debug\' != '' and !HasTrailingSlash('E:\Shagufta\Workspace\Opengl\Unagi_2.0\Debug\')).
                    Task "Error" skipped, due to false condition; ('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)')) was evaluated as ('obj\' != '' and !HasTrailingSlash('obj\')).
                    Task "Error" skipped, due to false condition; ('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)')) was evaluated as ('Debug\' != '' and !HasTrailingSlash('Debug\')).
-15:32:37.088     1>Done building target "_CheckForInvalidConfigurationAndPlatform" in project "Unagi_2.0.vcxproj".: (TargetId:2)
-15:32:37.088     1>Target "_PrepareForBuild: (TargetId:3)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "Build" depends on it):
+16:33:38.246     1>Done building target "_CheckForInvalidConfigurationAndPlatform" in project "Unagi_2.0.vcxproj".: (TargetId:2)
+16:33:38.246     1>Target "_PrepareForBuild: (TargetId:3)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "Build" depends on it):
                    Set Property: BuildType=Build
                    Set Property: _BuildActionType=Build
                    Task "CreateItem" skipped, due to false condition; ('%(CustomBuild.IncludeFileToTool)'!='') was evaluated as (''!='').
@@ -1311,17 +1311,17 @@ windir = C:\Windows
                        CustomBuildStep=
                            Unagi_2.0
                                    Message=Performing Custom Build Step
-15:32:37.088     1>Done building target "_PrepareForBuild" in project "Unagi_2.0.vcxproj".: (TargetId:3)
-15:32:37.088     1>Target "_PrepareForReferenceResolution: (TargetId:4)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "ResolveReferences" depends on it):
+16:33:38.247     1>Done building target "_PrepareForBuild" in project "Unagi_2.0.vcxproj".: (TargetId:3)
+16:33:38.247     1>Target "_PrepareForReferenceResolution: (TargetId:4)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "ResolveReferences" depends on it):
                    Set Property: TargetFrameworkMoniker=
                    Set Property: _FindDependencies=false
                    Set Property: AdditionalExplicitAssemblyReferences=
                    Task "Message" skipped, due to false condition; ('$(_REFERENCE_DEBUG)'=='true') was evaluated as (''=='true').
-15:32:37.089     1>Done building target "_PrepareForReferenceResolution" in project "Unagi_2.0.vcxproj".: (TargetId:4)
+16:33:38.247     1>Done building target "_PrepareForReferenceResolution" in project "Unagi_2.0.vcxproj".: (TargetId:4)
                    Target "ComputeCrtSDKReference" skipped, due to false condition; ('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false') was evaluated as ('Camera\Camera.cpp;EventSystem\Input.cpp;Geometry\MeshData\Edge\Edge.cpp;Geometry\MeshData\Face\Face.cpp;Geometry\MeshData\HalfEdgeElement\HalfEdgeElement.cpp;Geometry\MeshData\HalfEdgeMesh\HalfEdgeMesh.cpp;Geometry\MeshData\HalfEdge\HalfEdge.cpp;Geometry\MeshData\MeshFilter\MeshFilter.cpp;Geometry\MeshData\Mesh\Mesh.cpp;Graphics\Material\Material.cpp;Graphics\Node\Node.cpp;Graphics\Renderer\Renderer.cpp;Geometry\MeshData\Vertex\Vertex.cpp;Maths\Matrix\Matrix3.cpp;Maths\Matrix\Matrix4.cpp;Maths\Vector\Vector2.cpp;Maths\Vector\Vector3.cpp;Maths\Vector\Vector4.cpp;Scene\Scene.cpp;Shader\ShaderLoader.cpp;Shape\Box\TestBox2\TestBox2.cpp;Shape\Box\TestBox\TestBox.cpp;Sources\Source.cpp;Transform\Transform.cpp;Windows\Window.cpp'!='' and 'false'=='true' and '' != 'false').
-15:32:37.089     1>Target "BeforeResolveReferences: (TargetId:5)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "ResolveReferences" depends on it):
-15:32:37.089     1>Done building target "BeforeResolveReferences" in project "Unagi_2.0.vcxproj".: (TargetId:5)
-15:32:37.089     1>Target "AssignProjectConfiguration: (TargetId:6)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "ResolveReferences" depends on it):
+16:33:38.248     1>Target "BeforeResolveReferences: (TargetId:5)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "ResolveReferences" depends on it):
+16:33:38.248     1>Done building target "BeforeResolveReferences" in project "Unagi_2.0.vcxproj".: (TargetId:5)
+16:33:38.248     1>Target "AssignProjectConfiguration: (TargetId:6)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "ResolveReferences" depends on it):
                    Set Property: ShouldUnsetParentConfigurationAndPlatform=true
                    Using "AssignProjectConfiguration" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
                    Task "AssignProjectConfiguration" (TaskId:4)
@@ -1336,12 +1336,12 @@ windir = C:\Windows
                      Task Parameter:OnlyReferenceAndBuildProjectsEnabledInSolutionConfiguration=True (TaskId:4)
                      Task Parameter:ShouldUnsetParentConfigurationAndPlatform=True (TaskId:4)
                    Done executing task "AssignProjectConfiguration". (TaskId:4)
-15:32:37.090     1>Done building target "AssignProjectConfiguration" in project "Unagi_2.0.vcxproj".: (TargetId:6)
+16:33:38.248     1>Done building target "AssignProjectConfiguration" in project "Unagi_2.0.vcxproj".: (TargetId:6)
                    Target "AssignProjectConfiguration" skipped. Previously built successfully.
-15:32:37.090     1>Target "_SplitProjectReferencesByFileExistence: (TargetId:7)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "PrepareProjectReferences" depends on it):
+16:33:38.248     1>Target "_SplitProjectReferencesByFileExistence: (TargetId:7)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "PrepareProjectReferences" depends on it):
                    Task "ResolveNonMSBuildProjectOutput" skipped, due to false condition; ('$(BuildingInsideVisualStudio)'=='true' and '@(ProjectReferenceWithConfiguration)'!='') was evaluated as ('true'=='true' and ''!='').
-15:32:37.090     1>Done building target "_SplitProjectReferencesByFileExistence" in project "Unagi_2.0.vcxproj".: (TargetId:7)
-15:32:37.090     1>Target "_GetProjectReferenceTargetFrameworkProperties: (TargetId:8)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "PrepareProjectReferences" depends on it):
+16:33:38.248     1>Done building target "_SplitProjectReferencesByFileExistence" in project "Unagi_2.0.vcxproj".: (TargetId:7)
+16:33:38.248     1>Target "_GetProjectReferenceTargetFrameworkProperties: (TargetId:8)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "PrepareProjectReferences" depends on it):
                    Set Property: ReferringTargetFrameworkForProjectReferences=.NETFramework,Version=v4.0
                    Using "MSBuild" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
                    Task "MSBuild" (TaskId:5)
@@ -1351,21 +1351,21 @@ windir = C:\Windows
                      Task Parameter:SkipNonexistentTargets=True (TaskId:5)
                    Done executing task "MSBuild". (TaskId:5)
                    Task "GetReferenceNearestTargetFrameworkTask" skipped, due to false condition; ('@(_ProjectReferenceTargetFrameworkPossibilities->Count())' != '0' and '$(ReferringTargetFrameworkForProjectReferences)' != '') was evaluated as ('0' != '0' and '.NETFramework,Version=v4.0' != '').
-15:32:37.090     1>Done building target "_GetProjectReferenceTargetFrameworkProperties" in project "Unagi_2.0.vcxproj".: (TargetId:8)
-15:32:37.090     1>Target "PrepareProjectReferences: (TargetId:9)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "ResolveProjectReferences" depends on it):
-15:32:37.090     1>Done building target "PrepareProjectReferences" in project "Unagi_2.0.vcxproj".: (TargetId:9)
+16:33:38.249     1>Done building target "_GetProjectReferenceTargetFrameworkProperties" in project "Unagi_2.0.vcxproj".: (TargetId:8)
+16:33:38.249     1>Target "PrepareProjectReferences: (TargetId:9)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "ResolveProjectReferences" depends on it):
+16:33:38.249     1>Done building target "PrepareProjectReferences" in project "Unagi_2.0.vcxproj".: (TargetId:9)
                    Target "_RemoveNameMetadataFromProjectReferenceItems" skipped, due to false condition; ('@(ProjectReference)'!='') was evaluated as (''!='').
-15:32:37.090     1>Target "ResolveProjectReferences: (TargetId:10)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "ResolveReferences" depends on it):
+16:33:38.249     1>Target "ResolveProjectReferences: (TargetId:10)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "ResolveReferences" depends on it):
                    Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' != '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '15.0' != '10.0' and '' != '').
                    Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' == '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '15.0' == '10.0' and '' != '').
                    Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and 'true' != 'true' and 'true' == 'true' and '' != '').
                    Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingProject)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and 'true' == 'true' and '' != '').
                    Task "Warning" skipped, due to false condition; ('@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceNonexistent)' != '') was evaluated as ('' != '' and '' != '').
-15:32:37.091     1>Done building target "ResolveProjectReferences" in project "Unagi_2.0.vcxproj".: (TargetId:10)
+16:33:38.249     1>Done building target "ResolveProjectReferences" in project "Unagi_2.0.vcxproj".: (TargetId:10)
                    Target "FindInvalidProjectReferences" skipped, due to false condition; ('$(FindInvalidProjectReferences)' == 'true') was evaluated as ('' == 'true').
                    Target "ResolveNativeReferences" skipped, due to false condition; ('@(NativeReference)'!='') was evaluated as (''!='').
                    Target "_PrepareForReferenceResolution" skipped. Previously built successfully.
-15:32:37.091     1>Target "GetFrameworkPaths: (TargetId:11)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.NETFramework.CurrentVersion.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+16:33:38.249     1>Target "GetFrameworkPaths: (TargetId:11)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.NETFramework.CurrentVersion.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "ResolveAssemblyReferences" depends on it):
                    Added Item(s): _TargetFramework40DirectoryItem=C:\Windows\Microsoft.NET\Framework\v4.0.30319
                    Added Item(s): _TargetFramework35DirectoryItem=C:\Windows\Microsoft.NET\Framework\v3.5
                    Added Item(s): _TargetFramework30DirectoryItem=C:\Windows\Microsoft.NET\Framework\v3.0
@@ -1375,16 +1375,16 @@ windir = C:\Windows
                    Set Property: TargetFrameworkDirectory=C:\Windows\Microsoft.NET\Framework\v4.0.30319
                    Set Property: TargetFrameworkSDKDirectory=C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\
                    Added Item(s): _TargetFrameworkSDKDirectoryItem=C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\
-15:32:37.091     1>Done building target "GetFrameworkPaths" in project "Unagi_2.0.vcxproj".: (TargetId:11)
+16:33:38.249     1>Done building target "GetFrameworkPaths" in project "Unagi_2.0.vcxproj".: (TargetId:11)
                    Target "GetWinFXPath" skipped, due to false condition; (('@(Page)' != '' or '@(ApplicationDefinition)' != '' or '@(Resource)' != '') and ('$(GetWinFXNativePath)' != '' or '$(GetWinFXWoWPath)' != '' )) was evaluated as (('' != '' or '' != '' or '' != '') and ('' != '' or '' != '' )).
-15:32:37.091     1>Target "GetReferenceAssemblyPaths: (TargetId:12)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+16:33:38.249     1>Target "GetReferenceAssemblyPaths: (TargetId:12)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "ResolveAssemblyReferences" depends on it):
                    Set Property: TargetFrameworkDirectory=
                    Task "GetReferenceAssemblyPaths" skipped, due to false condition; ('$(TargetFrameworkMoniker)' != '' and ('$(_TargetFrameworkDirectories)' == '' or '$(_FullFrameworkReferenceAssemblyPaths)' == '')) was evaluated as ('' != '' and ('C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '' or 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '')).
                    Set Property: TargetFrameworkDirectory=C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0;;
                    Set Property: TargetFrameworkDirectory=C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0;;;C:\Program Files (x86)\Windows Kits\10\References
                    Set Property: RemoveAssemblyFoldersIfNoTargetFramework=true
-15:32:37.091     1>Done building target "GetReferenceAssemblyPaths" in project "Unagi_2.0.vcxproj".: (TargetId:12)
-15:32:37.091     1>Target "SetBuildDefaultEnvironmentVariables: (TargetId:13)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Cpp.Current.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "PrepareForBuild" depends on it):
+16:33:38.250     1>Done building target "GetReferenceAssemblyPaths" in project "Unagi_2.0.vcxproj".: (TargetId:12)
+16:33:38.250     1>Target "SetBuildDefaultEnvironmentVariables: (TargetId:13)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Cpp.Current.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "PrepareForBuild" depends on it):
                    Using "SetEnv" task from assembly "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Build.CppTasks.Common.dll".
                    Task "SetEnv" (TaskId:6)
                      Task Parameter:Name=PATH (TaskId:6)
@@ -1414,9 +1414,9 @@ windir = C:\Windows
                      INCLUDE=C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include;;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\atlmfc\include;;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Auxiliary\VS\include;;C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt;;;C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um;C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\winrt;Include\um; (TaskId:9)
                      Output Property: INCLUDE=C:\Program Files %28x86%29\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include%3b%3bC:\Program Files %28x86%29\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\atlmfc\include%3b%3bC:\Program Files %28x86%29\Microsoft Visual Studio\2017\Community\VC\Auxiliary\VS\include%3b%3bC:\Program Files %28x86%29\Windows Kits\10\Include\10.0.16299.0\ucrt%3b%3b%3bC:\Program Files %28x86%29\Windows Kits\10\Include\10.0.16299.0\um%3bC:\Program Files %28x86%29\Windows Kits\10\Include\10.0.16299.0\shared%3bC:\Program Files %28x86%29\Windows Kits\10\Include\10.0.16299.0\winrt%3bInclude\um%3b (TaskId:9)
                    Done executing task "SetEnv". (TaskId:9)
-15:32:37.092     1>Done building target "SetBuildDefaultEnvironmentVariables" in project "Unagi_2.0.vcxproj".: (TargetId:13)
+16:33:38.250     1>Done building target "SetBuildDefaultEnvironmentVariables" in project "Unagi_2.0.vcxproj".: (TargetId:13)
                    Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '' and '$(DesignTimeBuild)' != 'true') was evaluated as ('' != '' and '' != 'true').
-15:32:37.092     1>Target "GetResolvedWinMD: (TargetId:14)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "PrepareForBuild" depends on it):
+16:33:38.250     1>Target "GetResolvedWinMD: (TargetId:14)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "PrepareForBuild" depends on it):
                    Added Item(s): 
                        Link=
                            tmp
@@ -1497,8 +1497,8 @@ windir = C:\Windows
                                    TypeLibraryResourceID=1
                                    UACExecutionLevel=AsInvoker
                                    UACUIAccess=false
-15:32:37.092     1>Done building target "GetResolvedWinMD" in project "Unagi_2.0.vcxproj".: (TargetId:14)
-15:32:37.092     1>Target "PlatformPrepareForBuild: (TargetId:15)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Cpp.Platform.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "PrepareForBuild" depends on it):
+16:33:38.251     1>Done building target "GetResolvedWinMD" in project "Unagi_2.0.vcxproj".: (TargetId:14)
+16:33:38.251     1>Target "PlatformPrepareForBuild: (TargetId:15)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Cpp.Platform.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "PrepareForBuild" depends on it):
                    Set Property: ConfigurationPlatformExists=true
                    Set Property: _CurrentPlatformToolsetShortName=v141
                    Task "VCMessage" skipped, due to false condition; ('$(_Error64bitToolsNotInstalled)' == 'true') was evaluated as ('' == 'true').
@@ -1506,22 +1506,22 @@ windir = C:\Windows
                    Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(_ToolsetFound)' != 'true' and '$(PlatformToolset)' == 'v100') was evaluated as (''!='true' and 'true' != 'true' and 'v141' == 'v100').
                    Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(_ToolsetFound)' != 'true' and '$(PlatformToolset)' == 'v90') was evaluated as (''!='true' and 'true' != 'true' and 'v141' == 'v90').
                    Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(_ToolsetFound)' != 'true' and '$(PlatformToolset)' != 'v90' and '$(PlatformToolset)' != 'v100' and '$(PlatformToolset)' != 'v110') was evaluated as (''!='true' and 'true' != 'true' and 'v141' != 'v90' and 'v141' != 'v100' and 'v141' != 'v110').
-15:32:37.092     1>Done building target "PlatformPrepareForBuild" in project "Unagi_2.0.vcxproj".: (TargetId:15)
-15:32:37.092     1>Target "Desktop_PlatformPrepareForBuild: (TargetId:16)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Platforms\Win32\PlatformToolsets\v141\Toolset.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "PrepareForBuild" depends on it):
+16:33:38.251     1>Done building target "PlatformPrepareForBuild" in project "Unagi_2.0.vcxproj".: (TargetId:15)
+16:33:38.251     1>Target "Desktop_PlatformPrepareForBuild: (TargetId:16)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Platforms\Win32\PlatformToolsets\v141\Toolset.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "PrepareForBuild" depends on it):
                    Task "VCMessage" skipped, due to false condition; ($(MissingSDKProps) == 'true') was evaluated as ( == 'true').
-15:32:37.093     1>Done building target "Desktop_PlatformPrepareForBuild" in project "Unagi_2.0.vcxproj".: (TargetId:16)
+16:33:38.251     1>Done building target "Desktop_PlatformPrepareForBuild" in project "Unagi_2.0.vcxproj".: (TargetId:16)
                    Target "GetFrameworkPaths" skipped. Previously built successfully.
                    Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
                    Target "AssignLinkMetadata" skipped, due to false condition; ( '$(SynthesizeLinkMetadata)' == 'true' ) was evaluated as ( '' == 'true' ).
-15:32:37.093     1>Target "SetCABuildNativeEnvironmentVariables: (TargetId:17)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\Microsoft\VisualStudio\v15.0\CodeAnalysis\Microsoft.CodeAnalysis.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "PrepareForBuild" depends on it):
+16:33:38.251     1>Target "SetCABuildNativeEnvironmentVariables: (TargetId:17)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\Microsoft\VisualStudio\v15.0\CodeAnalysis\Microsoft.CodeAnalysis.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "PrepareForBuild" depends on it):
                    Initializing task factory "CodeTaskFactory" from assembly "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Build.Tasks.Core.dll".
                    Using "SetEnvironmentVariable" task from the task factory "Code Task Factory".
                    Task "SetEnvironmentVariable" (TaskId:10)
                      Task Parameter:EnvValue=C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\atlmfc\include;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include;C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt;;C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um;C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\winrt;Include\um; (TaskId:10)
                      Task Parameter:EnvKey=CAExcludePath (TaskId:10)
                    Done executing task "SetEnvironmentVariable". (TaskId:10)
-15:32:37.096     1>Done building target "SetCABuildNativeEnvironmentVariables" in project "Unagi_2.0.vcxproj".: (TargetId:17)
-15:32:37.096     1>Target "PrepareForBuild: (TargetId:18)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+16:33:38.256     1>Done building target "SetCABuildNativeEnvironmentVariables" in project "Unagi_2.0.vcxproj".: (TargetId:17)
+16:33:38.256     1>Target "PrepareForBuild: (TargetId:18)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "ResolveAssemblyReferences" depends on it):
                    Set Property: TargetDir=E:\Shagufta\Workspace\Opengl\Unagi_2.0\Debug\
                    Set Property: LocalDebuggerCommand=E:\Shagufta\Workspace\Opengl\Unagi_2.0\Debug\Unagi_2.0.exe
                    Set Property: BuildProjectReferences=false
@@ -1550,19 +1550,19 @@ windir = C:\Windows
                              E:\Shagufta\Workspace\Opengl\Unagi_2.0\Debug\
                              Debug\Unagi_2.0.tlog\ (TaskId:12)
                    Done executing task "MakeDir". (TaskId:12)
-15:32:37.098     1>Done building target "PrepareForBuild" in project "Unagi_2.0.vcxproj".: (TargetId:18)
+16:33:38.259     1>Done building target "PrepareForBuild" in project "Unagi_2.0.vcxproj".: (TargetId:18)
                    Target "_PrepareForReferenceResolution" skipped. Previously built successfully.
                    Target "ComputeCrtSDKReference" skipped, due to false condition; ('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false') was evaluated as ('Camera\Camera.cpp;EventSystem\Input.cpp;Geometry\MeshData\Edge\Edge.cpp;Geometry\MeshData\Face\Face.cpp;Geometry\MeshData\HalfEdgeElement\HalfEdgeElement.cpp;Geometry\MeshData\HalfEdgeMesh\HalfEdgeMesh.cpp;Geometry\MeshData\HalfEdge\HalfEdge.cpp;Geometry\MeshData\MeshFilter\MeshFilter.cpp;Geometry\MeshData\Mesh\Mesh.cpp;Graphics\Material\Material.cpp;Graphics\Node\Node.cpp;Graphics\Renderer\Renderer.cpp;Geometry\MeshData\Vertex\Vertex.cpp;Maths\Matrix\Matrix3.cpp;Maths\Matrix\Matrix4.cpp;Maths\Vector\Vector2.cpp;Maths\Vector\Vector3.cpp;Maths\Vector\Vector4.cpp;Scene\Scene.cpp;Shader\ShaderLoader.cpp;Shape\Box\TestBox2\TestBox2.cpp;Shape\Box\TestBox\TestBox.cpp;Sources\Source.cpp;Transform\Transform.cpp;Windows\Window.cpp'!='' and 'false'=='true' and '' != 'false').
                    Target "GetInstalledSDKLocations" skipped, due to false condition; ('@(SDKReference)' != '') was evaluated as ('' != '').
-15:32:37.098     1>Target "ResolveSDKReferences: (TargetId:19)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+16:33:38.259     1>Target "ResolveSDKReferences: (TargetId:19)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "ResolveAssemblyReferences" depends on it):
                    Task "ResolveSDKReference" skipped, due to false condition; ('@(SDKReference)'!='') was evaluated as (''!='').
-15:32:37.098     1>Done building target "ResolveSDKReferences" in project "Unagi_2.0.vcxproj".: (TargetId:19)
+16:33:38.259     1>Done building target "ResolveSDKReferences" in project "Unagi_2.0.vcxproj".: (TargetId:19)
                    Target "ResolveSDKReferences" skipped. Previously built successfully.
-15:32:37.098     1>Target "ExpandSDKReferences: (TargetId:20)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+16:33:38.259     1>Target "ExpandSDKReferences: (TargetId:20)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "ResolveAssemblyReferences" depends on it):
                    Task "GetSDKReferenceFiles" skipped, due to false condition; ('@(ResolvedSDKReference)'!='') was evaluated as (''!='').
-15:32:37.098     1>Done building target "ExpandSDKReferences" in project "Unagi_2.0.vcxproj".: (TargetId:20)
+16:33:38.259     1>Done building target "ExpandSDKReferences" in project "Unagi_2.0.vcxproj".: (TargetId:20)
                    Target "ResolveNuGetPackageAssets" skipped, due to false condition; ('$(ResolveNuGetPackages)' == 'true' and exists('$(ProjectLockFile)')) was evaluated as ('true' == 'true' and exists('obj\project.assets.json')).
-15:32:37.099     1>Target "ResolveAssemblyReferences: (TargetId:21)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "ResolveReferences" depends on it):
+16:33:38.259     1>Target "ResolveAssemblyReferences: (TargetId:21)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "ResolveReferences" depends on it):
                    Added Item(s): 
                        _ReferenceInstalledAssemblyDirectory=
                            C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0
@@ -1571,19 +1571,19 @@ windir = C:\Windows
                    Set Property: ResolveAssemblyReferencesSilent=false
                    Set Property: ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch=Warning
                    Task "ResolveAssemblyReference" skipped, due to false condition; ('@(Reference)'!='' or '@(_ResolvedProjectReferencePaths)'!='' or '@(_ExplicitReference)' != '') was evaluated as (''!='' or ''!='' or '' != '').
-15:32:37.099     1>Done building target "ResolveAssemblyReferences" in project "Unagi_2.0.vcxproj".: (TargetId:21)
+16:33:38.260     1>Done building target "ResolveAssemblyReferences" in project "Unagi_2.0.vcxproj".: (TargetId:21)
                    Target "GenerateBindingRedirects" skipped, due to false condition; ('$(AutoGenerateBindingRedirects)' == 'true' and '$(GenerateBindingRedirectsOutputType)' == 'true') was evaluated as ('' == 'true' and 'true' == 'true').
                    Target "GenerateBindingRedirectsUpdateAppConfig" skipped, due to false condition; ('$(AutoGenerateBindingRedirects)' == 'true' and '$(GenerateBindingRedirectsOutputType)' == 'true' and Exists('$(_GenerateBindingRedirectsIntermediateAppConfig)')) was evaluated as ('' == 'true' and 'true' == 'true' and Exists('Debug\Unagi_2.0.exe.config')).
                    Target "ResolveComReferences" skipped, due to false condition; ('@(COMReference)'!='' or '@(COMFileReference)'!='') was evaluated as (''!='' or ''!='').
-15:32:37.099     1>Target "AfterResolveReferences: (TargetId:22)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "ResolveReferences" depends on it):
-15:32:37.099     1>Done building target "AfterResolveReferences" in project "Unagi_2.0.vcxproj".: (TargetId:22)
+16:33:38.260     1>Target "AfterResolveReferences: (TargetId:22)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "ResolveReferences" depends on it):
+16:33:38.260     1>Done building target "AfterResolveReferences" in project "Unagi_2.0.vcxproj".: (TargetId:22)
                    Target "ImplicitlyExpandDesignTimeFacades" skipped, due to false condition; ('$(ImplicitlyExpandDesignTimeFacades)' == 'true') was evaluated as ('' == 'true').
                    Target "ResolveTestReferences" skipped, due to false condition; ('@(Shadow)'!='') was evaluated as (''!='').
-15:32:37.099     1>Target "ResolveReferences: (TargetId:23)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "Build" depends on it):
-15:32:37.099     1>Done building target "ResolveReferences" in project "Unagi_2.0.vcxproj".: (TargetId:23)
+16:33:38.260     1>Target "ResolveReferences: (TargetId:23)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "Build" depends on it):
+16:33:38.260     1>Done building target "ResolveReferences" in project "Unagi_2.0.vcxproj".: (TargetId:23)
                    Target "PrepareForBuild" skipped. Previously built successfully.
                    Target "PrepareForBuild" skipped. Previously built successfully.
-15:32:37.099     1>Target "InitializeBuildStatus: (TargetId:24)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "Build" depends on it):
+16:33:38.260     1>Target "InitializeBuildStatus: (TargetId:24)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "Build" depends on it):
                    Using "ReadLinesFromFile" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
                    Task "ReadLinesFromFile" (TaskId:13)
                      Task Parameter:File=Debug\Unagi_2.0.tlog\Unagi_2.0.lastbuildstate (TaskId:13)
@@ -1609,66 +1609,66 @@ windir = C:\Windows
                      Task Parameter:Files=Debug\Unagi_2.0.tlog\unsuccessfulbuild (TaskId:15)
                      Creating "Debug\Unagi_2.0.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified. (TaskId:15)
                    Done executing task "Touch". (TaskId:15)
-15:32:37.101     1>Done building target "InitializeBuildStatus" in project "Unagi_2.0.vcxproj".: (TargetId:24)
+16:33:38.262     1>Done building target "InitializeBuildStatus" in project "Unagi_2.0.vcxproj".: (TargetId:24)
                    Target "PrepareProjectReferences" skipped. Previously built successfully.
-15:32:37.101     1>Target "BuildGenerateSourcesTraverse: (TargetId:25)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "BuildGenerateSources" depends on it):
+16:33:38.267     1>Target "BuildGenerateSourcesTraverse: (TargetId:25)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "BuildGenerateSources" depends on it):
                    Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '' != '' and '' != '' and '' == 'true').
-15:32:37.101     1>Done building target "BuildGenerateSourcesTraverse" in project "Unagi_2.0.vcxproj".: (TargetId:25)
+16:33:38.267     1>Done building target "BuildGenerateSourcesTraverse" in project "Unagi_2.0.vcxproj".: (TargetId:25)
                    Target "PrepareForBuild" skipped. Previously built successfully.
                    Target "ResolveReferences" skipped. Previously built successfully.
-15:32:37.101     1>Target "BeforeBuildGenerateSources: (TargetId:26)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
-15:32:37.101     1>Done building target "BeforeBuildGenerateSources" in project "Unagi_2.0.vcxproj".: (TargetId:26)
-15:32:37.101     1>Target "PreBuildEvent: (TargetId:27)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+16:33:38.267     1>Target "BeforeBuildGenerateSources: (TargetId:26)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+16:33:38.267     1>Done building target "BeforeBuildGenerateSources" in project "Unagi_2.0.vcxproj".: (TargetId:26)
+16:33:38.267     1>Target "PreBuildEvent: (TargetId:27)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
                    Task "Message" skipped, due to false condition; ('%(PreBuildEvent.Message)' != '' and '%(PreBuildEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
                    Task "Exec" skipped, due to false condition; ('%(PreBuildEvent.Command)' != '') was evaluated as ('' != '').
-15:32:37.101     1>Done building target "PreBuildEvent" in project "Unagi_2.0.vcxproj".: (TargetId:27)
+16:33:38.268     1>Done building target "PreBuildEvent" in project "Unagi_2.0.vcxproj".: (TargetId:27)
                    Target "CustomBuild" skipped, due to false condition; ('@(CustomBuild)' != '') was evaluated as ('' != '').
                    Target "FxExport" skipped, due to false condition; ('@(FxCompile)' != '') was evaluated as ('' != '').
                    Target "FxCompile" skipped, due to false condition; ('@(FxCompile)' != '') was evaluated as ('' != '').
                    Target "Xsd" skipped, due to false condition; ('@(Xsd)' != '') was evaluated as ('' != '').
-15:32:37.101     1>Target "_Xsd: (TargetId:28)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
-15:32:37.101     1>Done building target "_Xsd" in project "Unagi_2.0.vcxproj".: (TargetId:28)
-15:32:37.101     1>Target "MakeDirsForMidl: (TargetId:29)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_Midl" depends on it):
+16:33:38.268     1>Target "_Xsd: (TargetId:28)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+16:33:38.268     1>Done building target "_Xsd" in project "Unagi_2.0.vcxproj".: (TargetId:28)
+16:33:38.268     1>Target "MakeDirsForMidl: (TargetId:29)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_Midl" depends on it):
                    Set Property: Midl_OutputDir=
                    Task "Makedir" (TaskId:16)
                    Done executing task "Makedir". (TaskId:16)
-15:32:37.105     1>Done building target "MakeDirsForMidl" in project "Unagi_2.0.vcxproj".: (TargetId:29)
+16:33:38.268     1>Done building target "MakeDirsForMidl" in project "Unagi_2.0.vcxproj".: (TargetId:29)
                    Target "Midl" skipped, due to false condition; ('@(Midl)' != '') was evaluated as ('' != '').
                    Target "CustomBuild" skipped, due to false condition; ('@(CustomBuild)' != '') was evaluated as ('' != '').
                    Target "FxExport" skipped, due to false condition; ('@(FxCompile)' != '') was evaluated as ('' != '').
                    Target "FxCompile" skipped, due to false condition; ('@(FxCompile)' != '') was evaluated as ('' != '').
-15:32:37.105     1>Target "ComputeMIDLGeneratedCompileInputs: (TargetId:30)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_Midl" depends on it):
+16:33:38.268     1>Target "ComputeMIDLGeneratedCompileInputs: (TargetId:30)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_Midl" depends on it):
                    Set Property: Midl_OutputDir=
-15:32:37.105     1>Done building target "ComputeMIDLGeneratedCompileInputs" in project "Unagi_2.0.vcxproj".: (TargetId:30)
-15:32:37.105     1>Target "AfterMidl: (TargetId:31)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_Midl" depends on it):
-15:32:37.105     1>Done building target "AfterMidl" in project "Unagi_2.0.vcxproj".: (TargetId:31)
-15:32:37.105     1>Target "_Midl: (TargetId:32)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
-15:32:37.105     1>Done building target "_Midl" in project "Unagi_2.0.vcxproj".: (TargetId:32)
-15:32:37.105     1>Target "AfterBuildGenerateSources: (TargetId:33)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
-15:32:37.105     1>Done building target "AfterBuildGenerateSources" in project "Unagi_2.0.vcxproj".: (TargetId:33)
-15:32:37.105     1>Target "AfterBuildGenerateSourcesEvent: (TargetId:34)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
-15:32:37.105     1>Done building target "AfterBuildGenerateSourcesEvent" in project "Unagi_2.0.vcxproj".: (TargetId:34)
-15:32:37.105     1>Target "_BuildGenerateSourcesAction: (TargetId:35)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "BuildGenerateSources" depends on it):
-15:32:37.105     1>Done building target "_BuildGenerateSourcesAction" in project "Unagi_2.0.vcxproj".: (TargetId:35)
-15:32:37.105     1>Target "BuildGenerateSources: (TargetId:36)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "Build" depends on it):
-15:32:37.105     1>Done building target "BuildGenerateSources" in project "Unagi_2.0.vcxproj".: (TargetId:36)
+16:33:38.268     1>Done building target "ComputeMIDLGeneratedCompileInputs" in project "Unagi_2.0.vcxproj".: (TargetId:30)
+16:33:38.268     1>Target "AfterMidl: (TargetId:31)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_Midl" depends on it):
+16:33:38.268     1>Done building target "AfterMidl" in project "Unagi_2.0.vcxproj".: (TargetId:31)
+16:33:38.268     1>Target "_Midl: (TargetId:32)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+16:33:38.268     1>Done building target "_Midl" in project "Unagi_2.0.vcxproj".: (TargetId:32)
+16:33:38.269     1>Target "AfterBuildGenerateSources: (TargetId:33)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+16:33:38.269     1>Done building target "AfterBuildGenerateSources" in project "Unagi_2.0.vcxproj".: (TargetId:33)
+16:33:38.269     1>Target "AfterBuildGenerateSourcesEvent: (TargetId:34)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+16:33:38.269     1>Done building target "AfterBuildGenerateSourcesEvent" in project "Unagi_2.0.vcxproj".: (TargetId:34)
+16:33:38.269     1>Target "_BuildGenerateSourcesAction: (TargetId:35)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "BuildGenerateSources" depends on it):
+16:33:38.269     1>Done building target "_BuildGenerateSourcesAction" in project "Unagi_2.0.vcxproj".: (TargetId:35)
+16:33:38.269     1>Target "BuildGenerateSources: (TargetId:36)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "Build" depends on it):
+16:33:38.269     1>Done building target "BuildGenerateSources" in project "Unagi_2.0.vcxproj".: (TargetId:36)
                    Target "PrepareProjectReferences" skipped. Previously built successfully.
-15:32:37.105     1>Target "BuildCompileTraverse: (TargetId:37)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "BuildCompile" depends on it):
+16:33:38.269     1>Target "BuildCompileTraverse: (TargetId:37)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "BuildCompile" depends on it):
                    Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '' != '' and '' != ''  and '' == 'true').
-15:32:37.105     1>Done building target "BuildCompileTraverse" in project "Unagi_2.0.vcxproj".: (TargetId:37)
+16:33:38.269     1>Done building target "BuildCompileTraverse" in project "Unagi_2.0.vcxproj".: (TargetId:37)
                    Target "PrepareForBuild" skipped. Previously built successfully.
                    Target "ResolveReferences" skipped. Previously built successfully.
-15:32:37.105     1>Target "BeforeClCompile: (TargetId:38)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_ClCompile" depends on it):
-15:32:37.105     1>Done building target "BeforeClCompile" in project "Unagi_2.0.vcxproj".: (TargetId:38)
+16:33:38.269     1>Target "BeforeClCompile: (TargetId:38)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_ClCompile" depends on it):
+16:33:38.269     1>Done building target "BeforeClCompile" in project "Unagi_2.0.vcxproj".: (TargetId:38)
                    Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
-15:32:37.105     1>Target "ComputeCLInputPDBName: (TargetId:39)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_ClCompile" depends on it):
-15:32:37.105     1>Done building target "ComputeCLInputPDBName" in project "Unagi_2.0.vcxproj".: (TargetId:39)
+16:33:38.269     1>Target "ComputeCLInputPDBName: (TargetId:39)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_ClCompile" depends on it):
+16:33:38.269     1>Done building target "ComputeCLInputPDBName" in project "Unagi_2.0.vcxproj".: (TargetId:39)
                    Target "ResolveReferences" skipped. Previously built successfully.
-15:32:37.105     1>Target "ComputeReferenceCLInput: (TargetId:40)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_ClCompile" depends on it):
+16:33:38.269     1>Target "ComputeReferenceCLInput: (TargetId:40)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_ClCompile" depends on it):
                    Task "WriteLinesToFile" skipped, due to false condition; (('@(_ReferenceCopyLocalPaths)'!='') and '$(DesignTimeBuild)' != 'true') was evaluated as ((''!='') and '' != 'true').
                    Task "Message" skipped, due to false condition; ('$(_REFERENCE_DEBUG)'=='true') was evaluated as (''=='true').
-15:32:37.106     1>Done building target "ComputeReferenceCLInput" in project "Unagi_2.0.vcxproj".: (TargetId:40)
-15:32:37.106     1>Target "WarnCompileDuplicatedFilename: (TargetId:41)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_ClCompile" depends on it):
+16:33:38.270     1>Done building target "ComputeReferenceCLInput" in project "Unagi_2.0.vcxproj".: (TargetId:40)
+16:33:38.270     1>Target "WarnCompileDuplicatedFilename: (TargetId:41)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_ClCompile" depends on it):
                    Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'Camera.cpp' != 'Camera.cpp' and 'Debug\' == 'Debug\').
                    Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'Input.cpp' != 'Input.cpp' and 'Debug\' == 'Debug\').
                    Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'Edge.cpp' != 'Edge.cpp' and 'Debug\' == 'Debug\').
@@ -1694,10 +1694,10 @@ windir = C:\Windows
                    Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'Source.cpp' != 'Source.cpp' and 'Debug\' == 'Debug\').
                    Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'Transform.cpp' != 'Transform.cpp' and 'Debug\' == 'Debug\').
                    Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'Window.cpp' != 'Window.cpp' and 'Debug\' == 'Debug\').
-15:32:37.110     1>Done building target "WarnCompileDuplicatedFilename" in project "Unagi_2.0.vcxproj".: (TargetId:41)
-15:32:37.110     1>Target "FixupCLCompileOptions: (TargetId:42)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_ClCompile" depends on it):
-15:32:37.111     1>Done building target "FixupCLCompileOptions" in project "Unagi_2.0.vcxproj".: (TargetId:42)
-15:32:37.111     1>Target "MakeDirsForCl: (TargetId:43)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_ClCompile" depends on it):
+16:33:38.274     1>Done building target "WarnCompileDuplicatedFilename" in project "Unagi_2.0.vcxproj".: (TargetId:41)
+16:33:38.274     1>Target "FixupCLCompileOptions: (TargetId:42)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_ClCompile" depends on it):
+16:33:38.274     1>Done building target "FixupCLCompileOptions" in project "Unagi_2.0.vcxproj".: (TargetId:42)
+16:33:38.274     1>Target "MakeDirsForCl: (TargetId:43)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_ClCompile" depends on it):
                    Added Item(s): ClDirsToMake=E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Debug
                    Added Item(s): ClDirsToMake=E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Debug
                    Added Item(s): ClDirsToMake=E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Debug
@@ -1716,25 +1716,25 @@ windir = C:\Windows
                            E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Debug
                            E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Debug
                            E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Debug
-15:32:37.112     1>Done building target "MakeDirsForCl" in project "Unagi_2.0.vcxproj".: (TargetId:43)
+16:33:38.275     1>Done building target "MakeDirsForCl" in project "Unagi_2.0.vcxproj".: (TargetId:43)
                    Target "PrepareForBuild" skipped. Previously built successfully.
                    Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
                    Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '' and '$(DesignTimeBuild)' != 'true') was evaluated as ('' != '' and '' != 'true').
-15:32:37.112     1>Target "_SelectedFiles: (TargetId:44)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "SelectClCompile" depends on it):
-15:32:37.112     1>Done building target "_SelectedFiles" in project "Unagi_2.0.vcxproj".: (TargetId:44)
+16:33:38.275     1>Target "_SelectedFiles: (TargetId:44)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "SelectClCompile" depends on it):
+16:33:38.275     1>Done building target "_SelectedFiles" in project "Unagi_2.0.vcxproj".: (TargetId:44)
                    Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
                    Target "ComputeCLInputPDBName" skipped. Previously built successfully.
                    Target "ComputeReferenceCLInput" skipped. Previously built successfully.
                    Target "WarnCompileDuplicatedFilename" skipped. Previously built successfully.
                    Target "FixupCLCompileOptions" skipped. Previously built successfully.
                    Target "_SelectedFiles" skipped. Previously built successfully.
-15:32:37.112     1>Target "SelectCustomBuild: (TargetId:45)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "SelectClCompile" depends on it):
-15:32:37.112     1>Done building target "SelectCustomBuild" in project "Unagi_2.0.vcxproj".: (TargetId:45)
-15:32:37.112     1>Target "SelectClCompile: (TargetId:46)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "ClCompile" depends on it):
-15:32:37.112     1>Done building target "SelectClCompile" in project "Unagi_2.0.vcxproj".: (TargetId:46)
+16:33:38.275     1>Target "SelectCustomBuild: (TargetId:45)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "SelectClCompile" depends on it):
+16:33:38.275     1>Done building target "SelectCustomBuild" in project "Unagi_2.0.vcxproj".: (TargetId:45)
+16:33:38.275     1>Target "SelectClCompile: (TargetId:46)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "ClCompile" depends on it):
+16:33:38.275     1>Done building target "SelectClCompile" in project "Unagi_2.0.vcxproj".: (TargetId:46)
                    Target "GenerateTargetFrameworkMonikerAttribute" skipped, due to false condition; ('$(GenerateTargetFrameworkAttribute)' == 'true') was evaluated as ('false' == 'true').
                    Target "ManagedIncrementalBuildPreProcessDependencyGraph" skipped, due to false condition; ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('Camera\Camera.cpp;EventSystem\Input.cpp;Geometry\MeshData\Edge\Edge.cpp;Geometry\MeshData\Face\Face.cpp;Geometry\MeshData\HalfEdgeElement\HalfEdgeElement.cpp;Geometry\MeshData\HalfEdgeMesh\HalfEdgeMesh.cpp;Geometry\MeshData\HalfEdge\HalfEdge.cpp;Geometry\MeshData\MeshFilter\MeshFilter.cpp;Geometry\MeshData\Mesh\Mesh.cpp;Graphics\Material\Material.cpp;Graphics\Node\Node.cpp;Graphics\Renderer\Renderer.cpp;Geometry\MeshData\Vertex\Vertex.cpp;Maths\Matrix\Matrix3.cpp;Maths\Matrix\Matrix4.cpp;Maths\Vector\Vector2.cpp;Maths\Vector\Vector3.cpp;Maths\Vector\Vector4.cpp;Scene\Scene.cpp;Shader\ShaderLoader.cpp;Shape\Box\TestBox2\TestBox2.cpp;Shape\Box\TestBox\TestBox.cpp;Sources\Source.cpp;Transform\Transform.cpp;Windows\Window.cpp' != '' and 'false' == 'True').
-15:32:37.112     1>Target "ClCompile: (TargetId:47)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_ClCompile" depends on it):
+16:33:38.275     1>Target "ClCompile: (TargetId:47)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_ClCompile" depends on it):
                    Set Property: CLToolArchitecture=Native32Bit
                    Set Property: CLDeleteOutputOnExecute=true
                    Task "Delete" skipped, due to false condition; ('%(ClCompile.DebugInformationFormat)' != '' and '%(ClCompile.DebugInformationFormat)' != 'None' and '%(ClCompile.DebugInformationFormat)' != 'OldStyle' and '%(ClCompile.ProgramDataBaseFileName)' != '' and !Exists(%(ClCompile.ProgramDataBaseFileName))) was evaluated as ('EditAndContinue' != '' and 'EditAndContinue' != 'None' and 'EditAndContinue' != 'OldStyle' and 'Debug\vc141.pdb' != '' and !Exists(Debug\vc141.pdb)).
@@ -3448,51 +3448,51 @@ windir = C:\Windows
                      	E:\SHAGUFTA\WORKSPACE\OPENGL\UNAGI_2.0\UNAGI_2.0\DEBUG\SOURCE.OBJ (TaskId:18)
                      	E:\SHAGUFTA\WORKSPACE\OPENGL\UNAGI_2.0\UNAGI_2.0\DEBUG\TRANSFORM.OBJ (TaskId:18)
                      	E:\SHAGUFTA\WORKSPACE\OPENGL\UNAGI_2.0\UNAGI_2.0\DEBUG\WINDOW.OBJ (TaskId:18)
-                     Sources\Source.cpp will be compiled because E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Sources\Source.cpp was modified at 09-10-2018 15:32:32. (TaskId:18)
+                     Sources\Source.cpp will be compiled because E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Sources\Source.cpp was modified at 09-10-2018 16:33:31. (TaskId:18)
                      Environment Variables passed to tool: (TaskId:18)
-                       VS_UNICODE_OUTPUT=2980 (TaskId:18)
+                       VS_UNICODE_OUTPUT=1720 (TaskId:18)
                      C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\CL.exe /c /IE:\Shagufta\Workspace\Opengl\Unagi_2.0\deps\glfw\include /IE:\Shagufta\Workspace\Opengl\Unagi_2.0\deps\glew\include /ZI /nologo /W3 /WX- /diagnostics:classic /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:prompt Sources\Source.cpp (TaskId:18)
                      Tracking command: (TaskId:18)
-                     C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Tracker.exe /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Debug\Unagi_2.0.tlog /r E:\SHAGUFTA\WORKSPACE\OPENGL\UNAGI_2.0\UNAGI_2.0\SOURCES\SOURCE.CPP /b MSBuildConsole_CancelEventb3b9954fa2a640068dd99b2267cb5832  /c "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\CL.exe"  /c /IE:\Shagufta\Workspace\Opengl\Unagi_2.0\deps\glfw\include /IE:\Shagufta\Workspace\Opengl\Unagi_2.0\deps\glew\include /ZI /nologo /W3 /WX- /diagnostics:classic /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:prompt Sources\Source.cpp (TaskId:18)
+                     C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Tracker.exe /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Debug\Unagi_2.0.tlog /r E:\SHAGUFTA\WORKSPACE\OPENGL\UNAGI_2.0\UNAGI_2.0\SOURCES\SOURCE.CPP /b MSBuildConsole_CancelEvent94ff553c97b54e5686c8f3ba239bee0f  /c "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\CL.exe"  /c /IE:\Shagufta\Workspace\Opengl\Unagi_2.0\deps\glfw\include /IE:\Shagufta\Workspace\Opengl\Unagi_2.0\deps\glew\include /ZI /nologo /W3 /WX- /diagnostics:classic /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:prompt Sources\Source.cpp (TaskId:18)
                      Source.cpp (TaskId:18)
-15:32:37.600     1>e:\shagufta\workspace\opengl\unagi_2.0\unagi_2.0\sources\source.cpp(39): warning C4305: 'initializing': truncation from 'double' to 'float'
+16:33:39.055     1>e:\shagufta\workspace\opengl\unagi_2.0\unagi_2.0\sources\source.cpp(42): warning C4305: 'initializing': truncation from 'double' to 'float'
                    Done executing task "CL". (TaskId:18)
-15:32:37.861     1>Done building target "ClCompile" in project "Unagi_2.0.vcxproj".: (TargetId:47)
+16:33:39.327     1>Done building target "ClCompile" in project "Unagi_2.0.vcxproj".: (TargetId:47)
                    Target "ManagedIncrementalBuildPostProcessDependencyGraph" skipped, due to false condition; ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('Camera\Camera.cpp;EventSystem\Input.cpp;Geometry\MeshData\Edge\Edge.cpp;Geometry\MeshData\Face\Face.cpp;Geometry\MeshData\HalfEdgeElement\HalfEdgeElement.cpp;Geometry\MeshData\HalfEdgeMesh\HalfEdgeMesh.cpp;Geometry\MeshData\HalfEdge\HalfEdge.cpp;Geometry\MeshData\MeshFilter\MeshFilter.cpp;Geometry\MeshData\Mesh\Mesh.cpp;Graphics\Material\Material.cpp;Graphics\Node\Node.cpp;Graphics\Renderer\Renderer.cpp;Geometry\MeshData\Vertex\Vertex.cpp;Maths\Matrix\Matrix3.cpp;Maths\Matrix\Matrix4.cpp;Maths\Vector\Vector2.cpp;Maths\Vector\Vector3.cpp;Maths\Vector\Vector4.cpp;Scene\Scene.cpp;Shader\ShaderLoader.cpp;Shape\Box\TestBox2\TestBox2.cpp;Shape\Box\TestBox\TestBox.cpp;Sources\Source.cpp;Transform\Transform.cpp;Windows\Window.cpp' != '' and 'false' == 'True').
-15:32:37.861     1>Target "AfterClCompile: (TargetId:48)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_ClCompile" depends on it):
-15:32:37.861     1>Done building target "AfterClCompile" in project "Unagi_2.0.vcxproj".: (TargetId:48)
-15:32:37.861     1>Target "_ClCompile: (TargetId:49)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_BuildCompileAction" depends on it):
-15:32:37.861     1>Done building target "_ClCompile" in project "Unagi_2.0.vcxproj".: (TargetId:49)
+16:33:39.327     1>Target "AfterClCompile: (TargetId:48)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_ClCompile" depends on it):
+16:33:39.327     1>Done building target "AfterClCompile" in project "Unagi_2.0.vcxproj".: (TargetId:48)
+16:33:39.327     1>Target "_ClCompile: (TargetId:49)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_BuildCompileAction" depends on it):
+16:33:39.327     1>Done building target "_ClCompile" in project "Unagi_2.0.vcxproj".: (TargetId:49)
                    Target "_ResGen" skipped, due to false condition; ('@(EmbeddedResource)'!='') was evaluated as (''!='').
-15:32:37.861     1>Target "BeforeResourceCompile: (TargetId:50)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_ResourceCompile" depends on it):
-15:32:37.861     1>Done building target "BeforeResourceCompile" in project "Unagi_2.0.vcxproj".: (TargetId:50)
-15:32:37.861     1>Target "MakeDirsForResourceCompile: (TargetId:51)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_ResourceCompile" depends on it):
+16:33:39.327     1>Target "BeforeResourceCompile: (TargetId:50)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_ResourceCompile" depends on it):
+16:33:39.327     1>Done building target "BeforeResourceCompile" in project "Unagi_2.0.vcxproj".: (TargetId:50)
+16:33:39.327     1>Target "MakeDirsForResourceCompile: (TargetId:51)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_ResourceCompile" depends on it):
                    Added Item(s): RcDirsToMake=E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Debug
                    Task "MakeDir" (TaskId:19)
                      Task Parameter:Directories=E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Debug (TaskId:19)
                    Done executing task "MakeDir". (TaskId:19)
                    Removed Item(s): RcDirsToMake=E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Debug
-15:32:37.861     1>Done building target "MakeDirsForResourceCompile" in project "Unagi_2.0.vcxproj".: (TargetId:51)
+16:33:39.328     1>Done building target "MakeDirsForResourceCompile" in project "Unagi_2.0.vcxproj".: (TargetId:51)
                    Target "ResourceCompile" skipped, due to false condition; ('@(ResourceCompile)' != '') was evaluated as ('' != '').
-15:32:37.861     1>Target "AfterResourceCompile: (TargetId:52)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_ResourceCompile" depends on it):
-15:32:37.861     1>Done building target "AfterResourceCompile" in project "Unagi_2.0.vcxproj".: (TargetId:52)
-15:32:37.861     1>Target "_ResourceCompile: (TargetId:53)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_BuildCompileAction" depends on it):
-15:32:37.861     1>Done building target "_ResourceCompile" in project "Unagi_2.0.vcxproj".: (TargetId:53)
+16:33:39.328     1>Target "AfterResourceCompile: (TargetId:52)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_ResourceCompile" depends on it):
+16:33:39.328     1>Done building target "AfterResourceCompile" in project "Unagi_2.0.vcxproj".: (TargetId:52)
+16:33:39.328     1>Target "_ResourceCompile: (TargetId:53)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_BuildCompileAction" depends on it):
+16:33:39.328     1>Done building target "_ResourceCompile" in project "Unagi_2.0.vcxproj".: (TargetId:53)
                    Target "_ImpLib" skipped, due to false condition; ('$(ImpLibCompiled)' == 'true') was evaluated as ('' == 'true').
                    Target "_Lib" skipped, due to false condition; ('$(LibCompiled)' == 'true') was evaluated as ('' == 'true').
-15:32:37.861     1>Target "AfterBuildCompileEvent: (TargetId:54)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_BuildCompileAction" depends on it):
-15:32:37.861     1>Done building target "AfterBuildCompileEvent" in project "Unagi_2.0.vcxproj".: (TargetId:54)
-15:32:37.861     1>Target "_BuildCompileAction: (TargetId:55)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "BuildCompile" depends on it):
-15:32:37.861     1>Done building target "_BuildCompileAction" in project "Unagi_2.0.vcxproj".: (TargetId:55)
-15:32:37.861     1>Target "BuildCompile: (TargetId:56)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "Build" depends on it):
-15:32:37.861     1>Done building target "BuildCompile" in project "Unagi_2.0.vcxproj".: (TargetId:56)
+16:33:39.328     1>Target "AfterBuildCompileEvent: (TargetId:54)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_BuildCompileAction" depends on it):
+16:33:39.328     1>Done building target "AfterBuildCompileEvent" in project "Unagi_2.0.vcxproj".: (TargetId:54)
+16:33:39.328     1>Target "_BuildCompileAction: (TargetId:55)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "BuildCompile" depends on it):
+16:33:39.328     1>Done building target "_BuildCompileAction" in project "Unagi_2.0.vcxproj".: (TargetId:55)
+16:33:39.328     1>Target "BuildCompile: (TargetId:56)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "Build" depends on it):
+16:33:39.328     1>Done building target "BuildCompile" in project "Unagi_2.0.vcxproj".: (TargetId:56)
                    Target "PrepareProjectReferences" skipped. Previously built successfully.
-15:32:37.861     1>Target "BuildLinkTraverse: (TargetId:57)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "BuildLink" depends on it):
+16:33:39.328     1>Target "BuildLinkTraverse: (TargetId:57)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "BuildLink" depends on it):
                    Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '' != '' and '' != ''  and '' == 'true').
-15:32:37.861     1>Done building target "BuildLinkTraverse" in project "Unagi_2.0.vcxproj".: (TargetId:57)
+16:33:39.328     1>Done building target "BuildLinkTraverse" in project "Unagi_2.0.vcxproj".: (TargetId:57)
                    Target "PrepareForBuild" skipped. Previously built successfully.
                    Target "ResolveReferences" skipped. Previously built successfully.
-15:32:37.861     1>Target "ComputeLegacyManifestEmbedding: (TargetId:58)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_BuildLinkAction" depends on it):
+16:33:39.328     1>Target "ComputeLegacyManifestEmbedding: (TargetId:58)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_BuildLinkAction" depends on it):
                    Added Item(s): 
                        Manifest=
                            temp
@@ -3522,26 +3522,26 @@ windir = C:\Windows
                                    TrackerLogDirectory=Debug\Unagi_2.0.tlog\
                                    UpdateFileHashes=false
                                    VerboseOutput=true
-15:32:37.862     1>Done building target "ComputeLegacyManifestEmbedding" in project "Unagi_2.0.vcxproj".: (TargetId:58)
-15:32:37.862     1>Target "BeforeLink: (TargetId:59)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_Link" depends on it):
-15:32:37.862     1>Done building target "BeforeLink" in project "Unagi_2.0.vcxproj".: (TargetId:59)
-15:32:37.862     1>Target "ComputeRCOutputs: (TargetId:60)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "ComputeRCGeneratedLinkInputs" depends on it):
-15:32:37.862     1>Done building target "ComputeRCOutputs" in project "Unagi_2.0.vcxproj".: (TargetId:60)
-15:32:37.862     1>Target "ComputeRCGeneratedLinkInputs: (TargetId:61)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_Link" depends on it):
-15:32:37.862     1>Done building target "ComputeRCGeneratedLinkInputs" in project "Unagi_2.0.vcxproj".: (TargetId:61)
-15:32:37.862     1>Target "ComputeManifestGeneratedLinkerInputs: (TargetId:62)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_Link" depends on it):
-15:32:37.862     1>Done building target "ComputeManifestGeneratedLinkerInputs" in project "Unagi_2.0.vcxproj".: (TargetId:62)
-15:32:37.862     1>Target "ComputeCustomBuildOutput: (TargetId:63)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_Link" depends on it):
+16:33:39.328     1>Done building target "ComputeLegacyManifestEmbedding" in project "Unagi_2.0.vcxproj".: (TargetId:58)
+16:33:39.328     1>Target "BeforeLink: (TargetId:59)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_Link" depends on it):
+16:33:39.328     1>Done building target "BeforeLink" in project "Unagi_2.0.vcxproj".: (TargetId:59)
+16:33:39.328     1>Target "ComputeRCOutputs: (TargetId:60)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "ComputeRCGeneratedLinkInputs" depends on it):
+16:33:39.328     1>Done building target "ComputeRCOutputs" in project "Unagi_2.0.vcxproj".: (TargetId:60)
+16:33:39.328     1>Target "ComputeRCGeneratedLinkInputs: (TargetId:61)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_Link" depends on it):
+16:33:39.328     1>Done building target "ComputeRCGeneratedLinkInputs" in project "Unagi_2.0.vcxproj".: (TargetId:61)
+16:33:39.328     1>Target "ComputeManifestGeneratedLinkerInputs: (TargetId:62)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_Link" depends on it):
+16:33:39.328     1>Done building target "ComputeManifestGeneratedLinkerInputs" in project "Unagi_2.0.vcxproj".: (TargetId:62)
+16:33:39.328     1>Target "ComputeCustomBuildOutput: (TargetId:63)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_Link" depends on it):
                    Task "CreateItem" skipped, due to false condition; ('%(CustomBuildDirsToMake.OutputFileToTool)'!='') was evaluated as (''!='').
                    Task "MakeDir" (TaskId:20)
                    Done executing task "MakeDir". (TaskId:20)
-15:32:37.862     1>Done building target "ComputeCustomBuildOutput" in project "Unagi_2.0.vcxproj".: (TargetId:63)
+16:33:39.329     1>Done building target "ComputeCustomBuildOutput" in project "Unagi_2.0.vcxproj".: (TargetId:63)
                    Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
                    Target "ComputeCLInputPDBName" skipped. Previously built successfully.
                    Target "ComputeReferenceCLInput" skipped. Previously built successfully.
                    Target "WarnCompileDuplicatedFilename" skipped. Previously built successfully.
                    Target "FixupCLCompileOptions" skipped. Previously built successfully.
-15:32:37.862     1>Target "ComputeCLOutputs: (TargetId:64)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "ComputeCLGeneratedLinkInputs" depends on it):
+16:33:39.329     1>Target "ComputeCLOutputs: (TargetId:64)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "ComputeCLGeneratedLinkInputs" depends on it):
                    Added Item(s): 
                        Obj=
                            Debug\Camera.obj
@@ -5144,8 +5144,8 @@ windir = C:\Windows
                                    WholeProgramOptimization=false
                                    WinRTNoStdLib=false
                                    XMLDocumentationFileName=Debug\
-15:32:37.868     1>Done building target "ComputeCLOutputs" in project "Unagi_2.0.vcxproj".: (TargetId:64)
-15:32:37.869     1>Target "ComputeCLGeneratedLinkInputs: (TargetId:65)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_Link" depends on it):
+16:33:39.335     1>Done building target "ComputeCLOutputs" in project "Unagi_2.0.vcxproj".: (TargetId:64)
+16:33:39.335     1>Target "ComputeCLGeneratedLinkInputs: (TargetId:65)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_Link" depends on it):
                    Added Item(s): 
                        Link=
                            Debug\Camera.obj
@@ -6073,11 +6073,11 @@ windir = C:\Windows
                                    TypeLibraryResourceID=1
                                    UACExecutionLevel=AsInvoker
                                    UACUIAccess=false
-15:32:37.871     1>Done building target "ComputeCLGeneratedLinkInputs" in project "Unagi_2.0.vcxproj".: (TargetId:65)
-15:32:37.871     1>Target "ComputeLinkInputsFromProject: (TargetId:66)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_Link" depends on it):
-15:32:37.871     1>Done building target "ComputeLinkInputsFromProject" in project "Unagi_2.0.vcxproj".: (TargetId:66)
+16:33:39.337     1>Done building target "ComputeCLGeneratedLinkInputs" in project "Unagi_2.0.vcxproj".: (TargetId:65)
+16:33:39.337     1>Target "ComputeLinkInputsFromProject: (TargetId:66)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_Link" depends on it):
+16:33:39.337     1>Done building target "ComputeLinkInputsFromProject" in project "Unagi_2.0.vcxproj".: (TargetId:66)
                    Target "ComputeReferenceLinkInputs" skipped, due to false condition; (@(ProjectReference) != '') was evaluated as ( != '').
-15:32:37.871     1>Target "ComputeManifestInputsTargets: (TargetId:67)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_Link" depends on it):
+16:33:39.337     1>Target "ComputeManifestInputsTargets: (TargetId:67)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_Link" depends on it):
                    Added Item(s): 
                        Manifest=
                            temp
@@ -6108,10 +6108,10 @@ windir = C:\Windows
                                    TrackerLogDirectory=Debug\Unagi_2.0.tlog\
                                    UpdateFileHashes=false
                                    VerboseOutput=true
-15:32:37.871     1>Done building target "ComputeManifestInputsTargets" in project "Unagi_2.0.vcxproj".: (TargetId:67)
+16:33:39.338     1>Done building target "ComputeManifestInputsTargets" in project "Unagi_2.0.vcxproj".: (TargetId:67)
                    Target "ManifestResourceCompile" skipped, due to false condition; ('$(EmbedManifestBy)' == 'LINK' and '@(Manifest)' != '') was evaluated as ('LINK' == 'LINK' and '' != '').
                    Target "AssignWinFXEmbeddedResource" skipped, due to false condition; ('@(WinFXEmbeddedResource)' != '') was evaluated as ('' != '').
-15:32:37.871     1>Target "AssignTargetPaths: (TargetId:68)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "PrepareResourceNames" depends on it):
+16:33:39.338     1>Target "AssignTargetPaths: (TargetId:68)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "PrepareResourceNames" depends on it):
                    Using "AssignTargetPath" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
                    Task "AssignTargetPath" (TaskId:21)
                      Task Parameter:RootFolder=E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0 (TaskId:21)
@@ -6143,9 +6143,9 @@ windir = C:\Windows
                    Done executing task "AssignTargetPath". (TaskId:24)
                    Task "AssignTargetPath" skipped, due to false condition; ('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest') was evaluated as (''=='' and '.fs'=='.manifest').
                    Task "AssignTargetPath" skipped, due to false condition; ('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest') was evaluated as (''=='' and '.vs'=='.manifest').
-15:32:37.872     1>Done building target "AssignTargetPaths" in project "Unagi_2.0.vcxproj".: (TargetId:68)
+16:33:39.339     1>Done building target "AssignTargetPaths" in project "Unagi_2.0.vcxproj".: (TargetId:68)
                    Target "AssignTargetPaths" skipped. Previously built successfully.
-15:32:37.872     1>Target "SplitResourcesByCulture: (TargetId:69)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "PrepareResourceNames" depends on it):
+16:33:39.339     1>Target "SplitResourcesByCulture: (TargetId:69)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "PrepareResourceNames" depends on it):
                    Task "Warning" skipped, due to false condition; ('@(ResxWithNoCulture)'!='') was evaluated as (''!='').
                    Task "Warning" skipped, due to false condition; ('@(ResxWithCulture)'!='') was evaluated as (''!='').
                    Task "Warning" skipped, due to false condition; ('@(NonResxWithCulture)'!='') was evaluated as (''!='').
@@ -6153,13 +6153,13 @@ windir = C:\Windows
                    Using "AssignCulture" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
                    Task "AssignCulture" (TaskId:25)
                    Done executing task "AssignCulture". (TaskId:25)
-15:32:37.872     1>Done building target "SplitResourcesByCulture" in project "Unagi_2.0.vcxproj".: (TargetId:69)
+16:33:39.339     1>Done building target "SplitResourcesByCulture" in project "Unagi_2.0.vcxproj".: (TargetId:69)
                    Target "CreateManifestResourceNames" skipped, due to false condition; ('@(EmbeddedResource)' != '') was evaluated as ('' != '').
-15:32:37.872     1>Target "CreateCustomManifestResourceNames: (TargetId:70)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "PrepareResourceNames" depends on it):
-15:32:37.872     1>Done building target "CreateCustomManifestResourceNames" in project "Unagi_2.0.vcxproj".: (TargetId:70)
-15:32:37.872     1>Target "PrepareResourceNames: (TargetId:71)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_Link" depends on it):
-15:32:37.872     1>Done building target "PrepareResourceNames" in project "Unagi_2.0.vcxproj".: (TargetId:71)
-15:32:37.872     1>Target "MakeDirsForLink: (TargetId:72)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_Link" depends on it):
+16:33:39.339     1>Target "CreateCustomManifestResourceNames: (TargetId:70)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "PrepareResourceNames" depends on it):
+16:33:39.339     1>Done building target "CreateCustomManifestResourceNames" in project "Unagi_2.0.vcxproj".: (TargetId:70)
+16:33:39.339     1>Target "PrepareResourceNames: (TargetId:71)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_Link" depends on it):
+16:33:39.339     1>Done building target "PrepareResourceNames" in project "Unagi_2.0.vcxproj".: (TargetId:71)
+16:33:39.339     1>Target "MakeDirsForLink: (TargetId:72)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_Link" depends on it):
                    Set Property: _LinkImportLibrary=E:\Shagufta\Workspace\Opengl\Unagi_2.0\Debug\Unagi_2.0.lib
                    Added Item(s): _LinkImportLibraryFile=E:\Shagufta\Workspace\Opengl\Unagi_2.0\Debug\Unagi_2.0.lib
                    Added Item(s): LinkDirsToMake=E:\Shagufta\Workspace\Opengl\Unagi_2.0\Debug
@@ -6181,25 +6181,25 @@ windir = C:\Windows
                            E:\Shagufta\Workspace\Opengl\Unagi_2.0\Debug
                            E:\Shagufta\Workspace\Opengl\Unagi_2.0\Debug\
                    Removed Item(s): _LinkImportLibraryFile=E:\Shagufta\Workspace\Opengl\Unagi_2.0\Debug\Unagi_2.0.lib
-15:32:37.873     1>Done building target "MakeDirsForLink" in project "Unagi_2.0.vcxproj".: (TargetId:72)
-15:32:37.873     1>Target "DoLinkOutputFilesMatch: (TargetId:73)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_Link" depends on it):
+16:33:39.340     1>Done building target "MakeDirsForLink" in project "Unagi_2.0.vcxproj".: (TargetId:72)
+16:33:39.340     1>Target "DoLinkOutputFilesMatch: (TargetId:73)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_Link" depends on it):
                    Added Item(s): _OutputFileFromLink=E:\Shagufta\Workspace\Opengl\Unagi_2.0\Debug\Unagi_2.0.exe
                    Task "VCMessage" skipped, due to false condition; ('@(_OutputFileFromLink)' == '') was evaluated as ('E:\Shagufta\Workspace\Opengl\Unagi_2.0\Debug\Unagi_2.0.exe' == '').
                    Task "VCMessage" skipped, due to false condition; ('@(_OutputFileFromLink)' != '' and '%(_OutputFileFromLink.FullPath)' != '$([System.IO.Path]::GetFullPath($(TargetPath)))') was evaluated as ('E:\Shagufta\Workspace\Opengl\Unagi_2.0\Debug\Unagi_2.0.exe' != '' and 'E:\Shagufta\Workspace\Opengl\Unagi_2.0\Debug\Unagi_2.0.exe' != 'E:\Shagufta\Workspace\Opengl\Unagi_2.0\Debug\Unagi_2.0.exe').
                    Task "VCMessage" skipped, due to false condition; ('@(_OutputFileFromLink)' != '' and '%(_OutputFileFromLink.Extension)' != '' and '%(_OutputFileFromLink.Extension)' != '$(TargetExt)') was evaluated as ('E:\Shagufta\Workspace\Opengl\Unagi_2.0\Debug\Unagi_2.0.exe' != '' and '.exe' != '' and '.exe' != '.exe').
                    Task "VCMessage" skipped, due to false condition; ('@(_OutputFileFromLink)' != '' and '%(_OutputFileFromLink.Filename)' != '' and '%(_OutputFileFromLink.Filename)' != '$(TargetName)') was evaluated as ('E:\Shagufta\Workspace\Opengl\Unagi_2.0\Debug\Unagi_2.0.exe' != '' and 'Unagi_2.0' != '' and 'Unagi_2.0' != 'Unagi_2.0').
                    Task "VCMessage" skipped, due to false condition; ('%(Link.MinimumRequiredVersion)' != '' and ('%(Link.Subsystem)' == '' or '%(Link.Subsystem)' == 'NotSet')) was evaluated as ('' != '' and ('' == '' or '' == 'NotSet')).
-15:32:37.874     1>Done building target "DoLinkOutputFilesMatch" in project "Unagi_2.0.vcxproj".: (TargetId:73)
-15:32:37.874     1>Target "PreLinkEvent: (TargetId:74)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_Link" depends on it):
+16:33:39.340     1>Done building target "DoLinkOutputFilesMatch" in project "Unagi_2.0.vcxproj".: (TargetId:73)
+16:33:39.340     1>Target "PreLinkEvent: (TargetId:74)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_Link" depends on it):
                    Task "Message" skipped, due to false condition; ('%(PreLinkEvent.Message)' != '' and '%(PreLinkEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
                    Task "Exec" skipped, due to false condition; ('%(PreLinkEvent.Command)' != '') was evaluated as ('' != '').
-15:32:37.874     1>Done building target "PreLinkEvent" in project "Unagi_2.0.vcxproj".: (TargetId:74)
-15:32:37.874     1>Target "ComputeLinkSwitches: (TargetId:75)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "Link" depends on it):
+16:33:39.340     1>Done building target "PreLinkEvent" in project "Unagi_2.0.vcxproj".: (TargetId:74)
+16:33:39.340     1>Target "ComputeLinkSwitches: (TargetId:75)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "Link" depends on it):
                    Set Property: Link_MinimalRebuildFromTracking=true
                    Set Property: LinkToolArchitecture=Native32Bit
                    Set Property: _GenerateWindowsMetadata=
-15:32:37.874     1>Done building target "ComputeLinkSwitches" in project "Unagi_2.0.vcxproj".: (TargetId:75)
-15:32:37.874     1>Target "Link: (TargetId:76)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_Link" depends on it):
+16:33:39.341     1>Done building target "ComputeLinkSwitches" in project "Unagi_2.0.vcxproj".: (TargetId:75)
+16:33:39.341     1>Target "Link: (TargetId:76)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_Link" depends on it):
                    Using "Link" task from assembly "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Build.CppTasks.Common.dll".
                    Task "Link" (TaskId:27)
                      Task Parameter:BuildingInIde=True (TaskId:27)
@@ -7411,9 +7411,9 @@ windir = C:\Windows
                      	C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\VC\TOOLS\MSVC\14.12.25827\LIB\X86\MSVCPRTD.LIB (TaskId:27)
                      	C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\VC\TOOLS\MSVC\14.12.25827\LIB\X86\VCRUNTIMED.LIB (TaskId:27)
                      	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.16299.0\UCRT\X86\UCRTD.LIB (TaskId:27)
-                     Source compilation required: input E:\SHAGUFTA\WORKSPACE\OPENGL\UNAGI_2.0\UNAGI_2.0\DEBUG\SOURCE.OBJ is newer than output E:\SHAGUFTA\WORKSPACE\OPENGL\UNAGI_2.0\DEBUG\UNAGI_2.0.PDB. (TaskId:27)
+                     Source compilation required: input E:\SHAGUFTA\WORKSPACE\OPENGL\UNAGI_2.0\UNAGI_2.0\DEBUG\SOURCE.OBJ is newer than output E:\SHAGUFTA\WORKSPACE\OPENGL\UNAGI_2.0\DEBUG\UNAGI_2.0.EXE. (TaskId:27)
                      Environment Variables passed to tool: (TaskId:27)
-                       VS_UNICODE_OUTPUT=2876 (TaskId:27)
+                       VS_UNICODE_OUTPUT=2848 (TaskId:27)
                      C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Shagufta\Workspace\Opengl\Unagi_2.0\Debug\Unagi_2.0.exe" /INCREMENTAL /NOLOGO E:\Shagufta\Workspace\Opengl\Unagi_2.0\deps\glfw\lib\MVSC\glfw3.lib E:\Shagufta\Workspace\Opengl\Unagi_2.0\deps\glew\lib\glew32.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"E:\Shagufta\Workspace\Opengl\Unagi_2.0\Debug\Unagi_2.0.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Shagufta\Workspace\Opengl\Unagi_2.0\Debug\Unagi_2.0.lib" /MACHINE:X86 Debug\Camera.obj
                      Debug\Input.obj
                      Debug\Edge.obj
@@ -7440,7 +7440,7 @@ windir = C:\Windows
                      Debug\Transform.obj
                      Debug\Window.obj (TaskId:27)
                      Tracking command: (TaskId:27)
-                     C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Tracker.exe /a /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Debug\Unagi_2.0.tlog /r "E:\SHAGUFTA\WORKSPACE\OPENGL\UNAGI_2.0\UNAGI_2.0\DEBUG\CAMERA.OBJ|E:\SHAGUFTA\WORKSPACE\OPENGL\UNAGI_2.0\UNAGI_2.0\DEBUG\EDGE.OBJ|E:\SHAGUFTA\WORKSPACE\OPENGL\UNAGI_2.0\UNAGI_2.0\DEBUG\FACE.OBJ|E:\SHAGUFTA\WORKSPACE\OPENGL\UNAGI_2.0\UNAGI_2.0\DEBUG\HALFEDGE.OBJ|E:\SHAGUFTA\WORKSPACE\OPENGL\UNAGI_2.0\UNAGI_2.0\DEBUG\HALFEDGEELEMENT.OBJ|E:\SHAGUFTA\WORKSPACE\OPENGL\UNAGI_2.0\UNAGI_2.0\DEBUG\HALFEDGEMESH.OBJ|E:\SHAGUFTA\WORKSPACE\OPENGL\UNAGI_2.0\UNAGI_2.0\DEBUG\INPUT.OBJ|E:\SHAGUFTA\WORKSPACE\OPENGL\UNAGI_2.0\UNAGI_2.0\DEBUG\MATERIAL.OBJ|E:\SHAGUFTA\WORKSPACE\OPENGL\UNAGI_2.0\UNAGI_2.0\DEBUG\MATRIX3.OBJ|E:\SHAGUFTA\WORKSPACE\OPENGL\UNAGI_2.0\UNAGI_2.0\DEBUG\MATRIX4.OBJ|E:\SHAGUFTA\WORKSPACE\OPENGL\UNAGI_2.0\UNAGI_2.0\DEBUG\MESH.OBJ|E:\SHAGUFTA\WORKSPACE\OPENGL\UNAGI_2.0\UNAGI_2.0\DEBUG\MESHFILTER.OBJ|E:\SHAGUFTA\WORKSPACE\OPENGL\UNAGI_2.0\UNAGI_2.0\DEBUG\NODE.OBJ|E:\SHAGUFTA\WORKSPACE\OPENGL\UNAGI_2.0\UNAGI_2.0\DEBUG\RENDERER.OBJ|E:\SHAGUFTA\WORKSPACE\OPENGL\UNAGI_2.0\UNAGI_2.0\DEBUG\SCENE.OBJ|E:\SHAGUFTA\WORKSPACE\OPENGL\UNAGI_2.0\UNAGI_2.0\DEBUG\SHADERLOADER.OBJ|E:\SHAGUFTA\WORKSPACE\OPENGL\UNAGI_2.0\UNAGI_2.0\DEBUG\SOURCE.OBJ|E:\SHAGUFTA\WORKSPACE\OPENGL\UNAGI_2.0\UNAGI_2.0\DEBUG\TESTBOX.OBJ|E:\SHAGUFTA\WORKSPACE\OPENGL\UNAGI_2.0\UNAGI_2.0\DEBUG\TESTBOX2.OBJ|E:\SHAGUFTA\WORKSPACE\OPENGL\UNAGI_2.0\UNAGI_2.0\DEBUG\TRANSFORM.OBJ|E:\SHAGUFTA\WORKSPACE\OPENGL\UNAGI_2.0\UNAGI_2.0\DEBUG\VECTOR2.OBJ|E:\SHAGUFTA\WORKSPACE\OPENGL\UNAGI_2.0\UNAGI_2.0\DEBUG\VECTOR3.OBJ|E:\SHAGUFTA\WORKSPACE\OPENGL\UNAGI_2.0\UNAGI_2.0\DEBUG\VECTOR4.OBJ|E:\SHAGUFTA\WORKSPACE\OPENGL\UNAGI_2.0\UNAGI_2.0\DEBUG\VERTEX.OBJ|E:\SHAGUFTA\WORKSPACE\OPENGL\UNAGI_2.0\UNAGI_2.0\DEBUG\WINDOW.OBJ" /b MSBuildConsole_CancelEvent8dbc3b63483847e08e6a9750a2127071  /c "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\link.exe"  /ERRORREPORT:PROMPT /OUT:"E:\Shagufta\Workspace\Opengl\Unagi_2.0\Debug\Unagi_2.0.exe" /INCREMENTAL /NOLOGO E:\Shagufta\Workspace\Opengl\Unagi_2.0\deps\glfw\lib\MVSC\glfw3.lib E:\Shagufta\Workspace\Opengl\Unagi_2.0\deps\glew\lib\glew32.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"E:\Shagufta\Workspace\Opengl\Unagi_2.0\Debug\Unagi_2.0.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Shagufta\Workspace\Opengl\Unagi_2.0\Debug\Unagi_2.0.lib" /MACHINE:X86 Debug\Camera.obj
+                     C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Tracker.exe /a /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Debug\Unagi_2.0.tlog /r "E:\SHAGUFTA\WORKSPACE\OPENGL\UNAGI_2.0\UNAGI_2.0\DEBUG\CAMERA.OBJ|E:\SHAGUFTA\WORKSPACE\OPENGL\UNAGI_2.0\UNAGI_2.0\DEBUG\EDGE.OBJ|E:\SHAGUFTA\WORKSPACE\OPENGL\UNAGI_2.0\UNAGI_2.0\DEBUG\FACE.OBJ|E:\SHAGUFTA\WORKSPACE\OPENGL\UNAGI_2.0\UNAGI_2.0\DEBUG\HALFEDGE.OBJ|E:\SHAGUFTA\WORKSPACE\OPENGL\UNAGI_2.0\UNAGI_2.0\DEBUG\HALFEDGEELEMENT.OBJ|E:\SHAGUFTA\WORKSPACE\OPENGL\UNAGI_2.0\UNAGI_2.0\DEBUG\HALFEDGEMESH.OBJ|E:\SHAGUFTA\WORKSPACE\OPENGL\UNAGI_2.0\UNAGI_2.0\DEBUG\INPUT.OBJ|E:\SHAGUFTA\WORKSPACE\OPENGL\UNAGI_2.0\UNAGI_2.0\DEBUG\MATERIAL.OBJ|E:\SHAGUFTA\WORKSPACE\OPENGL\UNAGI_2.0\UNAGI_2.0\DEBUG\MATRIX3.OBJ|E:\SHAGUFTA\WORKSPACE\OPENGL\UNAGI_2.0\UNAGI_2.0\DEBUG\MATRIX4.OBJ|E:\SHAGUFTA\WORKSPACE\OPENGL\UNAGI_2.0\UNAGI_2.0\DEBUG\MESH.OBJ|E:\SHAGUFTA\WORKSPACE\OPENGL\UNAGI_2.0\UNAGI_2.0\DEBUG\MESHFILTER.OBJ|E:\SHAGUFTA\WORKSPACE\OPENGL\UNAGI_2.0\UNAGI_2.0\DEBUG\NODE.OBJ|E:\SHAGUFTA\WORKSPACE\OPENGL\UNAGI_2.0\UNAGI_2.0\DEBUG\RENDERER.OBJ|E:\SHAGUFTA\WORKSPACE\OPENGL\UNAGI_2.0\UNAGI_2.0\DEBUG\SCENE.OBJ|E:\SHAGUFTA\WORKSPACE\OPENGL\UNAGI_2.0\UNAGI_2.0\DEBUG\SHADERLOADER.OBJ|E:\SHAGUFTA\WORKSPACE\OPENGL\UNAGI_2.0\UNAGI_2.0\DEBUG\SOURCE.OBJ|E:\SHAGUFTA\WORKSPACE\OPENGL\UNAGI_2.0\UNAGI_2.0\DEBUG\TESTBOX.OBJ|E:\SHAGUFTA\WORKSPACE\OPENGL\UNAGI_2.0\UNAGI_2.0\DEBUG\TESTBOX2.OBJ|E:\SHAGUFTA\WORKSPACE\OPENGL\UNAGI_2.0\UNAGI_2.0\DEBUG\TRANSFORM.OBJ|E:\SHAGUFTA\WORKSPACE\OPENGL\UNAGI_2.0\UNAGI_2.0\DEBUG\VECTOR2.OBJ|E:\SHAGUFTA\WORKSPACE\OPENGL\UNAGI_2.0\UNAGI_2.0\DEBUG\VECTOR3.OBJ|E:\SHAGUFTA\WORKSPACE\OPENGL\UNAGI_2.0\UNAGI_2.0\DEBUG\VECTOR4.OBJ|E:\SHAGUFTA\WORKSPACE\OPENGL\UNAGI_2.0\UNAGI_2.0\DEBUG\VERTEX.OBJ|E:\SHAGUFTA\WORKSPACE\OPENGL\UNAGI_2.0\UNAGI_2.0\DEBUG\WINDOW.OBJ" /b MSBuildConsole_CancelEventbb341e31e39447ffac439abf1b593838  /c "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\link.exe"  /ERRORREPORT:PROMPT /OUT:"E:\Shagufta\Workspace\Opengl\Unagi_2.0\Debug\Unagi_2.0.exe" /INCREMENTAL /NOLOGO E:\Shagufta\Workspace\Opengl\Unagi_2.0\deps\glfw\lib\MVSC\glfw3.lib E:\Shagufta\Workspace\Opengl\Unagi_2.0\deps\glew\lib\glew32.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"E:\Shagufta\Workspace\Opengl\Unagi_2.0\Debug\Unagi_2.0.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Shagufta\Workspace\Opengl\Unagi_2.0\Debug\Unagi_2.0.lib" /MACHINE:X86 Debug\Camera.obj
                      Debug\Input.obj
                      Debug\Edge.obj
                      Debug\Face.obj
@@ -7478,36 +7478,36 @@ windir = C:\Windows
                    Task "VCMessage" skipped, due to false condition; (('$(EmbedManifestBy)' != 'LINK' or '$(LegacyManifestEmbedding)' != 'true' or '$(LinkSkippedExecution)' == 'true') and
                                 %(Link.GenerateDebugInformation) == 'true' and %(Link.ProgramDataBaseFileName) != '') was evaluated as (('LINK' != 'LINK' or '' != 'true' or 'False' == 'true') and
                                 DebugFastLink == 'true' and  != '').
-15:32:38.101     1>Done building target "Link" in project "Unagi_2.0.vcxproj".: (TargetId:76)
+16:33:39.634     1>Done building target "Link" in project "Unagi_2.0.vcxproj".: (TargetId:76)
                    Target "MetaGenInputsOutputs" skipped, due to false condition; ('$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('false' == 'True').
                    Target "ComputeMetaGenInputs" skipped, due to false condition; ('$(CLRSupport)'!='' and '$(CLRSupport)'!='false') was evaluated as ('false'!='' and 'false'!='false').
                    Target "MetaGen" skipped, due to false condition; ('@(MetaGen)' != '') was evaluated as ('' != '').
-15:32:38.101     1>Target "ComputeLinkImportLibraryOutputsForClean: (TargetId:77)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_Link" depends on it):
+16:33:39.634     1>Target "ComputeLinkImportLibraryOutputsForClean: (TargetId:77)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_Link" depends on it):
                    Task "WriteLinesToFile" skipped, due to false condition; ('@(_LinkSecondaryOutput)' != '') was evaluated as ('' != '').
-15:32:38.102     1>Done building target "ComputeLinkImportLibraryOutputsForClean" in project "Unagi_2.0.vcxproj".: (TargetId:77)
-15:32:38.102     1>Target "AfterLink: (TargetId:78)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_Link" depends on it):
-15:32:38.102     1>Done building target "AfterLink" in project "Unagi_2.0.vcxproj".: (TargetId:78)
-15:32:38.102     1>Target "_Link: (TargetId:79)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_BuildLinkAction" depends on it):
-15:32:38.102     1>Done building target "_Link" in project "Unagi_2.0.vcxproj".: (TargetId:79)
-15:32:38.102     1>Target "_ALink: (TargetId:80)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_BuildLinkAction" depends on it):
-15:32:38.102     1>Done building target "_ALink" in project "Unagi_2.0.vcxproj".: (TargetId:80)
+16:33:39.634     1>Done building target "ComputeLinkImportLibraryOutputsForClean" in project "Unagi_2.0.vcxproj".: (TargetId:77)
+16:33:39.634     1>Target "AfterLink: (TargetId:78)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_Link" depends on it):
+16:33:39.634     1>Done building target "AfterLink" in project "Unagi_2.0.vcxproj".: (TargetId:78)
+16:33:39.635     1>Target "_Link: (TargetId:79)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_BuildLinkAction" depends on it):
+16:33:39.635     1>Done building target "_Link" in project "Unagi_2.0.vcxproj".: (TargetId:79)
+16:33:39.635     1>Target "_ALink: (TargetId:80)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_BuildLinkAction" depends on it):
+16:33:39.635     1>Done building target "_ALink" in project "Unagi_2.0.vcxproj".: (TargetId:80)
                    Target "ComputeLegacyManifestEmbedding" skipped. Previously built successfully.
-15:32:38.102     1>Target "_Manifest: (TargetId:81)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_BuildLinkAction" depends on it):
+16:33:39.635     1>Target "_Manifest: (TargetId:81)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_BuildLinkAction" depends on it):
                    Task "CallTarget" skipped, due to false condition; ('$(LegacyManifestEmbedding)' == 'true') was evaluated as ('' == 'true').
-15:32:38.102     1>Done building target "_Manifest" in project "Unagi_2.0.vcxproj".: (TargetId:81)
-15:32:38.102     1>Target "RegisterOutput: (TargetId:82)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_BuildLinkAction" depends on it):
+16:33:39.635     1>Done building target "_Manifest" in project "Unagi_2.0.vcxproj".: (TargetId:81)
+16:33:39.635     1>Target "RegisterOutput: (TargetId:82)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_BuildLinkAction" depends on it):
                    Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='DynamicLibrary' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'!='true') was evaluated as ('Application'=='DynamicLibrary' and 'false'=='true' and 'false'!='true').
                    Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='DynamicLibrary' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'=='true') was evaluated as ('Application'=='DynamicLibrary' and 'false'=='true' and 'false'=='true').
                    Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='Application' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'!='true') was evaluated as ('Application'=='Application' and 'false'=='true' and 'false'!='true').
                    Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='Application' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'=='true') was evaluated as ('Application'=='Application' and 'false'=='true' and 'false'=='true').
                    Task "VCMessage" skipped, due to false condition; ('$(_RegisterOutputExitCode)' != '' and '$(_RegisterOutputExitCode)' != '0') was evaluated as ('' != '' and '' != '0').
-15:32:38.102     1>Done building target "RegisterOutput" in project "Unagi_2.0.vcxproj".: (TargetId:82)
+16:33:39.635     1>Done building target "RegisterOutput" in project "Unagi_2.0.vcxproj".: (TargetId:82)
                    Target "PrepareForBuild" skipped. Previously built successfully.
                    Target "ResolveReferences" skipped. Previously built successfully.
-15:32:38.102     1>Target "ResolvedXDCMake: (TargetId:83)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_XdcMake" depends on it):
+16:33:39.635     1>Target "ResolvedXDCMake: (TargetId:83)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_XdcMake" depends on it):
                    Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.Extension)' == '.vcxproj' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '$(_ClCompileGenerateXMLDocumentationFiles)' == 'true') was evaluated as ('' == '.vcxproj' and '' != '' and '' != '' and '' == 'true').
-15:32:38.102     1>Done building target "ResolvedXDCMake" in project "Unagi_2.0.vcxproj".: (TargetId:83)
-15:32:38.102     1>Target "ComputeCLCompileGeneratedXDCFiles: (TargetId:84)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_XdcMake" depends on it):
+16:33:39.635     1>Done building target "ResolvedXDCMake" in project "Unagi_2.0.vcxproj".: (TargetId:83)
+16:33:39.635     1>Target "ComputeCLCompileGeneratedXDCFiles: (TargetId:84)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_XdcMake" depends on it):
                    Added Item(s): 
                        XdcMake=
                            temp
@@ -7530,68 +7530,68 @@ windir = C:\Windows
                                    OutputFile=E:\Shagufta\Workspace\Opengl\Unagi_2.0\Debug\Unagi_2.0.xml
                                    SuppressStartupBanner=true
                                    TrackerLogDirectory=Debug\Unagi_2.0.tlog\
-15:32:38.103     1>Done building target "ComputeCLCompileGeneratedXDCFiles" in project "Unagi_2.0.vcxproj".: (TargetId:84)
-15:32:38.103     1>Target "MakeDirsForXdcMake: (TargetId:85)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_XdcMake" depends on it):
+16:33:39.636     1>Done building target "ComputeCLCompileGeneratedXDCFiles" in project "Unagi_2.0.vcxproj".: (TargetId:84)
+16:33:39.636     1>Target "MakeDirsForXdcMake: (TargetId:85)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_XdcMake" depends on it):
                    Task "MakeDir" (TaskId:29)
                    Done executing task "MakeDir". (TaskId:29)
-15:32:38.103     1>Done building target "MakeDirsForXdcMake" in project "Unagi_2.0.vcxproj".: (TargetId:85)
+16:33:39.636     1>Done building target "MakeDirsForXdcMake" in project "Unagi_2.0.vcxproj".: (TargetId:85)
                    Target "XdcMake" skipped, due to false condition; ('@(XdcMake)' != '') was evaluated as ('' != '').
-15:32:38.103     1>Target "_XdcMake: (TargetId:86)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_BuildLinkAction" depends on it):
-15:32:38.103     1>Done building target "_XdcMake" in project "Unagi_2.0.vcxproj".: (TargetId:86)
-15:32:38.103     1>Target "ComputeCLCompileGeneratedSbrFiles: (TargetId:87)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_BscMake" depends on it):
-15:32:38.103     1>Done building target "ComputeCLCompileGeneratedSbrFiles" in project "Unagi_2.0.vcxproj".: (TargetId:87)
-15:32:38.103     1>Target "MakeDirsForBscMake: (TargetId:88)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_BscMake" depends on it):
+16:33:39.636     1>Target "_XdcMake: (TargetId:86)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_BuildLinkAction" depends on it):
+16:33:39.636     1>Done building target "_XdcMake" in project "Unagi_2.0.vcxproj".: (TargetId:86)
+16:33:39.636     1>Target "ComputeCLCompileGeneratedSbrFiles: (TargetId:87)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_BscMake" depends on it):
+16:33:39.636     1>Done building target "ComputeCLCompileGeneratedSbrFiles" in project "Unagi_2.0.vcxproj".: (TargetId:87)
+16:33:39.636     1>Target "MakeDirsForBscMake: (TargetId:88)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_BscMake" depends on it):
                    Task "MakeDir" (TaskId:30)
                    Done executing task "MakeDir". (TaskId:30)
-15:32:38.103     1>Done building target "MakeDirsForBscMake" in project "Unagi_2.0.vcxproj".: (TargetId:88)
+16:33:39.636     1>Done building target "MakeDirsForBscMake" in project "Unagi_2.0.vcxproj".: (TargetId:88)
                    Target "BscMake" skipped, due to false condition; ('@(BscMake)' != '') was evaluated as ('' != '').
                    Target "CustomBuildStep" skipped, due to false condition; ('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='') was evaluated as ('' != '' and ''=='').
-15:32:38.103     1>Target "_BscMake: (TargetId:89)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_BuildLinkAction" depends on it):
-15:32:38.103     1>Done building target "_BscMake" in project "Unagi_2.0.vcxproj".: (TargetId:89)
+16:33:39.636     1>Target "_BscMake: (TargetId:89)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_BuildLinkAction" depends on it):
+16:33:39.636     1>Done building target "_BscMake" in project "Unagi_2.0.vcxproj".: (TargetId:89)
                    Target "RunMergeNativeCodeAnalysis" skipped, due to false condition; ('$(Language)'=='C++' and '$(RunCodeAnalysisOnThisProject)'=='true') was evaluated as ('C++'=='C++' and ''=='true').
                    Target "RunNativeCodeAnalysis" skipped, due to false condition; ('$(Language)'=='C++' and '$(RunCodeAnalysisOnThisProject)'=='true') was evaluated as ('C++'=='C++' and ''=='true').
-15:32:38.103     1>Target "_GenerateSatelliteAssemblyInputs: (TargetId:90)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "CreateSatelliteAssemblies" depends on it):
+16:33:39.636     1>Target "_GenerateSatelliteAssemblyInputs: (TargetId:90)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "CreateSatelliteAssemblies" depends on it):
                    Task "Warning" skipped, due to false condition; ('@(ManifestResourceWithCulture)'!='' and '%(ManifestResourceWithCulture.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
                    Task "Warning" skipped, due to false condition; ('@(ManifestNonResxWithCultureOnDisk)'!='' and '%(ManifestNonResxWithCultureOnDisk.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
-15:32:38.103     1>Done building target "_GenerateSatelliteAssemblyInputs" in project "Unagi_2.0.vcxproj".: (TargetId:90)
+16:33:39.636     1>Done building target "_GenerateSatelliteAssemblyInputs" in project "Unagi_2.0.vcxproj".: (TargetId:90)
                    Target "ComputeIntermediateSatelliteAssemblies" skipped, due to false condition; (@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '') was evaluated as ( != '').
                    Target "GenerateSatelliteAssemblies" skipped, due to false condition; ('@(_SatelliteAssemblyResourceInputs)' != '') was evaluated as ('' != '').
-15:32:38.103     1>Target "CreateSatelliteAssemblies: (TargetId:91)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_BuildLinkAction" depends on it):
-15:32:38.103     1>Done building target "CreateSatelliteAssemblies" in project "Unagi_2.0.vcxproj".: (TargetId:91)
-15:32:38.103     1>Target "_Appverifier: (TargetId:92)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_BuildLinkAction" depends on it):
-15:32:38.103     1>Done building target "_Appverifier" in project "Unagi_2.0.vcxproj".: (TargetId:92)
-15:32:38.103     1>Target "_Deploy: (TargetId:93)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_BuildLinkAction" depends on it):
-15:32:38.103     1>Done building target "_Deploy" in project "Unagi_2.0.vcxproj".: (TargetId:93)
+16:33:39.636     1>Target "CreateSatelliteAssemblies: (TargetId:91)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_BuildLinkAction" depends on it):
+16:33:39.636     1>Done building target "CreateSatelliteAssemblies" in project "Unagi_2.0.vcxproj".: (TargetId:91)
+16:33:39.636     1>Target "_Appverifier: (TargetId:92)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_BuildLinkAction" depends on it):
+16:33:39.636     1>Done building target "_Appverifier" in project "Unagi_2.0.vcxproj".: (TargetId:92)
+16:33:39.636     1>Target "_Deploy: (TargetId:93)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_BuildLinkAction" depends on it):
+16:33:39.636     1>Done building target "_Deploy" in project "Unagi_2.0.vcxproj".: (TargetId:93)
                    Target "ComputeIntermediateSatelliteAssemblies" skipped, due to false condition; (@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '') was evaluated as ( != '').
                    Target "_CopyFilesMarkedCopyLocal" skipped, due to false condition; ('@(ReferenceCopyLocalPaths)' != '') was evaluated as ('' != '').
                    Target "AssignTargetPaths" skipped. Previously built successfully.
                    Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
                    Target "_GetProjectReferenceTargetFrameworkProperties" skipped. Previously built successfully.
-15:32:38.104     1>Target "GetCopyToOutputDirectoryXamlAppDefs: (TargetId:94)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "GetCopyToOutputDirectoryItems" depends on it):
+16:33:39.636     1>Target "GetCopyToOutputDirectoryXamlAppDefs: (TargetId:94)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "GetCopyToOutputDirectoryItems" depends on it):
                    Task "AssignTargetPath" (TaskId:31)
                      Task Parameter:RootFolder=E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0 (TaskId:31)
                    Done executing task "AssignTargetPath". (TaskId:31)
-15:32:38.104     1>Done building target "GetCopyToOutputDirectoryXamlAppDefs" in project "Unagi_2.0.vcxproj".: (TargetId:94)
-15:32:38.104     1>Target "GetCopyToOutputDirectoryItems: (TargetId:95)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_CopySourceItemsToOutputDirectory" depends on it):
+16:33:39.637     1>Done building target "GetCopyToOutputDirectoryXamlAppDefs" in project "Unagi_2.0.vcxproj".: (TargetId:94)
+16:33:39.637     1>Target "GetCopyToOutputDirectoryItems: (TargetId:95)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_CopySourceItemsToOutputDirectory" depends on it):
                    Set Property: _GCTODIKeepDuplicates=false
                    Set Property: _GCTODIKeepMetadata=CopyToOutputDirectory;TargetPath
                    Task "MSBuild" skipped, due to false condition; ('@(_MSBuildProjectReferenceExistent)' != '' and '$(_GetChildProjectCopyToOutputDirectoryItems)' == 'true' and '%(_MSBuildProjectReferenceExistent.Private)' != 'false' and '$(UseCommonOutputDirectory)' != 'true') was evaluated as ('' != '' and 'true' == 'true' and '' != 'false' and 'false' != 'true').
                    Task "AssignTargetPath" (TaskId:32)
                      Task Parameter:RootFolder=E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0 (TaskId:32)
                    Done executing task "AssignTargetPath". (TaskId:32)
-15:32:38.104     1>Done building target "GetCopyToOutputDirectoryItems" in project "Unagi_2.0.vcxproj".: (TargetId:95)
+16:33:39.637     1>Done building target "GetCopyToOutputDirectoryItems" in project "Unagi_2.0.vcxproj".: (TargetId:95)
                    Target "_CopyOutOfDateSourceItemsToOutputDirectory" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectory)' != '' ) was evaluated as ( '' != '' ).
                    Target "_CopyOutOfDateSourceItemsToOutputDirectoryAlways" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectoryAlways)' != '' ) was evaluated as ( '' != '' ).
-15:32:38.104     1>Target "_CopySourceItemsToOutputDirectory: (TargetId:96)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "CopyFilesToOutputDirectory" depends on it):
-15:32:38.104     1>Done building target "_CopySourceItemsToOutputDirectory" in project "Unagi_2.0.vcxproj".: (TargetId:96)
+16:33:39.637     1>Target "_CopySourceItemsToOutputDirectory: (TargetId:96)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "CopyFilesToOutputDirectory" depends on it):
+16:33:39.637     1>Done building target "_CopySourceItemsToOutputDirectory" in project "Unagi_2.0.vcxproj".: (TargetId:96)
                    Target "_CopyAppConfigFile" skipped, due to false condition; ( '@(AppConfigWithTargetPath)' != '' ) was evaluated as ( '' != '' ).
                    Target "_CopyManifestFiles" skipped, due to false condition; ( '$(_DeploymentCopyApplicationManifest)'=='true' or '$(GenerateClickOnceManifests)'=='true' ) was evaluated as ( ''=='true' or ''=='true' ).
-15:32:38.104     1>Target "_CheckForCompileOutputs: (TargetId:97)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "CopyFilesToOutputDirectory" depends on it):
+16:33:39.637     1>Target "_CheckForCompileOutputs: (TargetId:97)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "CopyFilesToOutputDirectory" depends on it):
                    Set Property: _DocumentationFileProduced=false
                    Set Property: _DebugSymbolsProduced=false
-15:32:38.104     1>Done building target "_CheckForCompileOutputs" in project "Unagi_2.0.vcxproj".: (TargetId:97)
+16:33:39.637     1>Done building target "_CheckForCompileOutputs" in project "Unagi_2.0.vcxproj".: (TargetId:97)
                    Target "_SGenCheckForOutputs" skipped, due to false condition; ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) was evaluated as ('Off' == 'On' or (''!='' and 'Off' == 'Auto')).
-15:32:38.104     1>Target "CopyFilesToOutputDirectory: (TargetId:98)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "PrepareForRun" depends on it):
+16:33:39.637     1>Target "CopyFilesToOutputDirectory: (TargetId:98)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "PrepareForRun" depends on it):
                    Set Property: CreateHardLinksForCopyFilesToOutputDirectoryIfPossible=false
                    Set Property: CreateSymbolicLinksForCopyFilesToOutputDirectoryIfPossible=false
                    Set Property: CopyBuildOutputToOutputDirectory=true
@@ -7607,21 +7607,21 @@ windir = C:\Windows
                    Task "Copy" skipped, due to false condition; ('@(ReferenceComWrappersToCopyLocal)' != '' or '@(ResolvedIsolatedComModules)' != '' or '@(_DeploymentLooseManifestFile)' != '' or '@(NativeReferenceFile)' != '' ) was evaluated as ('' != '' or '' != '' or '' != '' or '' != '' ).
                    Task "Copy" skipped, due to false condition; ('$(SkipCopyWinMDArtifact)' != 'true' and '@(WinMDExpArtifacts)' != '') was evaluated as ('' != 'true' and '' != '').
                    Task "Message" skipped, due to false condition; ('$(SkipCopyWinMDArtifact)' != 'true' and '$(_WindowsMetadataOutputPath)' != '') was evaluated as ('' != 'true' and '' != '').
-15:32:38.104     1>Done building target "CopyFilesToOutputDirectory" in project "Unagi_2.0.vcxproj".: (TargetId:98)
-15:32:38.104     1>Target "PrepareForRun: (TargetId:99)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_BuildLinkAction" depends on it):
-15:32:38.104     1>Done building target "PrepareForRun" in project "Unagi_2.0.vcxproj".: (TargetId:99)
+16:33:39.637     1>Done building target "CopyFilesToOutputDirectory" in project "Unagi_2.0.vcxproj".: (TargetId:98)
+16:33:39.637     1>Target "PrepareForRun: (TargetId:99)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_BuildLinkAction" depends on it):
+16:33:39.637     1>Done building target "PrepareForRun" in project "Unagi_2.0.vcxproj".: (TargetId:99)
                    Target "CustomBuildStep" skipped, due to false condition; ('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='') was evaluated as ('' != '' and ''=='').
-15:32:38.105     1>Target "PostBuildEvent: (TargetId:100)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_BuildLinkAction" depends on it):
+16:33:39.637     1>Target "PostBuildEvent: (TargetId:100)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "_BuildLinkAction" depends on it):
                    Task "Message" skipped, due to false condition; ('%(PostBuildEvent.Message)' != '' and '%(PostBuildEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
                    Task "Exec" skipped, due to false condition; ('%(PostBuildEvent.Command)' != '') was evaluated as ('' != '').
-15:32:38.105     1>Done building target "PostBuildEvent" in project "Unagi_2.0.vcxproj".: (TargetId:100)
-15:32:38.105     1>Target "_BuildLinkAction: (TargetId:101)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "BuildLink" depends on it):
-15:32:38.105     1>Done building target "_BuildLinkAction" in project "Unagi_2.0.vcxproj".: (TargetId:101)
-15:32:38.105     1>Target "BuildLink: (TargetId:102)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "Build" depends on it):
-15:32:38.105     1>Done building target "BuildLink" in project "Unagi_2.0.vcxproj".: (TargetId:102)
-15:32:38.105     1>Target "AfterBuild: (TargetId:103)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "Build" depends on it):
-15:32:38.105     1>Done building target "AfterBuild" in project "Unagi_2.0.vcxproj".: (TargetId:103)
-15:32:38.105     1>Target "FinalizeBuildStatus: (TargetId:104)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "Build" depends on it):
+16:33:39.637     1>Done building target "PostBuildEvent" in project "Unagi_2.0.vcxproj".: (TargetId:100)
+16:33:39.637     1>Target "_BuildLinkAction: (TargetId:101)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "BuildLink" depends on it):
+16:33:39.637     1>Done building target "_BuildLinkAction" in project "Unagi_2.0.vcxproj".: (TargetId:101)
+16:33:39.637     1>Target "BuildLink: (TargetId:102)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "Build" depends on it):
+16:33:39.637     1>Done building target "BuildLink" in project "Unagi_2.0.vcxproj".: (TargetId:102)
+16:33:39.638     1>Target "AfterBuild: (TargetId:103)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "Build" depends on it):
+16:33:39.638     1>Done building target "AfterBuild" in project "Unagi_2.0.vcxproj".: (TargetId:103)
+16:33:39.638     1>Target "FinalizeBuildStatus: (TargetId:104)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (target "Build" depends on it):
                    Using "Delete" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
                    Task "Delete" (TaskId:33)
                      Task Parameter:Files=Debug\Unagi_2.0.tlog\unsuccessfulbuild (TaskId:33)
@@ -7631,29 +7631,27 @@ windir = C:\Windows
                      Task Parameter:Files=Debug\Unagi_2.0.tlog\Unagi_2.0.lastbuildstate (TaskId:34)
                      Touching "Debug\Unagi_2.0.tlog\Unagi_2.0.lastbuildstate". (TaskId:34)
                    Done executing task "Touch". (TaskId:34)
-15:32:38.105     1>Done building target "FinalizeBuildStatus" in project "Unagi_2.0.vcxproj".: (TargetId:104)
+16:33:39.638     1>Done building target "FinalizeBuildStatus" in project "Unagi_2.0.vcxproj".: (TargetId:104)
                    Target "_CheckForInvalidConfigurationAndPlatform" skipped. Previously built successfully.
                    Target "_CheckForInvalidConfigurationAndPlatform" skipped. Previously built successfully.
-15:32:38.105     1>Target "Build: (TargetId:105)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (entry point):
-15:32:38.105     1>Done building target "Build" in project "Unagi_2.0.vcxproj".: (TargetId:105)
-15:32:38.105     1>Done Building Project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (Build target(s)).
+16:33:39.638     1>Target "Build: (TargetId:105)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets" from project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (entry point):
+16:33:39.638     1>Done building target "Build" in project "Unagi_2.0.vcxproj".: (TargetId:105)
+16:33:39.638     1>Done Building Project "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (Build target(s)).
 
 Project Performance Summary:
-     1019 ms  E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj   1 calls
-               1019 ms  Build                                      1 calls
+     1394 ms  E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj   1 calls
+               1394 ms  Build                                      1 calls
 
 Target Performance Summary:
         0 ms  _ResourceCompile                           1 calls
-        0 ms  AfterLink                                  1 calls
-        0 ms  ComputeLinkSwitches                        1 calls
         0 ms  PreLinkEvent                               1 calls
         0 ms  PrepareResourceNames                       1 calls
         0 ms  CreateCustomManifestResourceNames          1 calls
-        0 ms  ComputeManifestInputsTargets               1 calls
+        0 ms  SplitResourcesByCulture                    1 calls
         0 ms  ComputeLinkInputsFromProject               1 calls
         0 ms  ComputeManifestGeneratedLinkerInputs       1 calls
-        0 ms  _Link                                      1 calls
         0 ms  ComputeRCGeneratedLinkInputs               1 calls
+        0 ms  ComputeRCOutputs                           1 calls
         0 ms  BeforeLink                                 1 calls
         0 ms  BuildLinkTraverse                          1 calls
         0 ms  BuildCompile                               1 calls
@@ -7662,115 +7660,117 @@ Target Performance Summary:
         0 ms  AfterResourceCompile                       1 calls
         0 ms  BeforeResourceCompile                      1 calls
         0 ms  _ClCompile                                 1 calls
-        0 ms  ComputeRCOutputs                           1 calls
+        0 ms  AfterClCompile                             1 calls
+        0 ms  ComputeLinkImportLibraryOutputsForClean    1 calls
+        0 ms  AfterLink                                  1 calls
+        0 ms  _Link                                      1 calls
         0 ms  _ALink                                     1 calls
-        0 ms  _Manifest                                  1 calls
-        0 ms  ResolvedXDCMake                            1 calls
         0 ms  AfterBuild                                 1 calls
         0 ms  BuildLink                                  1 calls
         0 ms  _BuildLinkAction                           1 calls
         0 ms  PostBuildEvent                             1 calls
         0 ms  PrepareForRun                              1 calls
         0 ms  CopyFilesToOutputDirectory                 1 calls
-        0 ms  _CheckForCompileOutputs                    1 calls
         0 ms  _CopySourceItemsToOutputDirectory          1 calls
         0 ms  GetCopyToOutputDirectoryItems              1 calls
-        0 ms  GetCopyToOutputDirectoryXamlAppDefs        1 calls
+        0 ms  SelectClCompile                            1 calls
         0 ms  _Deploy                                    1 calls
-        0 ms  _Appverifier                               1 calls
         0 ms  CreateSatelliteAssemblies                  1 calls
         0 ms  _GenerateSatelliteAssemblyInputs           1 calls
         0 ms  _BscMake                                   1 calls
-        0 ms  MakeDirsForBscMake                         1 calls
         0 ms  ComputeCLCompileGeneratedSbrFiles          1 calls
         0 ms  _XdcMake                                   1 calls
         0 ms  MakeDirsForXdcMake                         1 calls
-        0 ms  AfterClCompile                             1 calls
-        0 ms  SelectClCompile                            1 calls
-        0 ms  Build                                      1 calls
-        0 ms  PreBuildEvent                              1 calls
-        0 ms  ComputeMIDLGeneratedCompileInputs          1 calls
-        0 ms  _Xsd                                       1 calls
+        0 ms  ResolvedXDCMake                            1 calls
+        0 ms  _Manifest                                  1 calls
+        0 ms  _Appverifier                               1 calls
         0 ms  SelectCustomBuild                          1 calls
-        0 ms  BeforeBuildGenerateSources                 1 calls
-        0 ms  BuildGenerateSourcesTraverse               1 calls
-        0 ms  ResolveReferences                          1 calls
-        0 ms  AfterResolveReferences                     1 calls
-        0 ms  ResolveAssemblyReferences                  1 calls
-        0 ms  ExpandSDKReferences                        1 calls
-        0 ms  ResolveSDKReferences                       1 calls
-        0 ms  PlatformPrepareForBuild                    1 calls
-        0 ms  GetFrameworkPaths                          1 calls
-        0 ms  PrepareProjectReferences                   1 calls
-        0 ms  _SplitProjectReferencesByFileExistence     1 calls
+        0 ms  Build                                      1 calls
+        0 ms  AfterBuildGenerateSources                  1 calls
+        0 ms  Desktop_PlatformPrepareForBuild            1 calls
+        0 ms  _SelectedFiles                             1 calls
+        0 ms  AssignProjectConfiguration                 1 calls
         0 ms  BeforeResolveReferences                    1 calls
+        0 ms  ExpandSDKReferences                        1 calls
+        0 ms  ComputeMIDLGeneratedCompileInputs          1 calls
         0 ms  AfterMidl                                  1 calls
         0 ms  _Midl                                      1 calls
-        0 ms  _PrepareForBuild                           1 calls
-        0 ms  BuildCompileTraverse                       1 calls
-        0 ms  ComputeCLInputPDBName                      1 calls
-        0 ms  BeforeClCompile                            1 calls
-        0 ms  AfterBuildGenerateSources                  1 calls
-        0 ms  _SelectedFiles                             1 calls
+        0 ms  PrepareProjectReferences                   1 calls
+        0 ms  BeforeBuildGenerateSources                 1 calls
+        0 ms  _Xsd                                       1 calls
         0 ms  AfterBuildGenerateSourcesEvent             1 calls
         0 ms  BuildGenerateSources                       1 calls
-        0 ms  _BuildGenerateSourcesAction                1 calls
-        0 ms  MakeDirsForResourceCompile                 1 calls
-        0 ms  ComputeLegacyManifestEmbedding             1 calls
-        0 ms  GetResolvedWinMD                           1 calls
-        0 ms  ComputeCLCompileGeneratedXDCFiles          1 calls
-        0 ms  ComputeReferenceCLInput                    1 calls
+        0 ms  BuildCompileTraverse                       1 calls
+        0 ms  ResolveSDKReferences                       1 calls
+        0 ms  BeforeClCompile                            1 calls
+        0 ms  ComputeCLInputPDBName                      1 calls
+        0 ms  ResolveReferences                          1 calls
         0 ms  _PrepareForReferenceResolution             1 calls
-        0 ms  SetBuildDefaultEnvironmentVariables        1 calls
-        0 ms  AssignTargetPaths                          1 calls
-        0 ms  AssignProjectConfiguration                 1 calls
+        0 ms  AfterResolveReferences                     1 calls
+        0 ms  GetFrameworkPaths                          1 calls
+        0 ms  _BuildGenerateSourcesAction                1 calls
+        0 ms  BuildGenerateSourcesTraverse               1 calls
+        0 ms  PlatformPrepareForBuild                    1 calls
+        0 ms  MakeDirsForMidl                            1 calls
+        0 ms  RegisterOutput                             1 calls
+        0 ms  DoLinkOutputFilesMatch                     1 calls
+        0 ms  _SplitProjectReferencesByFileExistence     1 calls
         0 ms  ComputeCustomBuildOutput                   1 calls
+        0 ms  ComputeManifestInputsTargets               1 calls
+        0 ms  ComputeLegacyManifestEmbedding             1 calls
+        0 ms  GetCopyToOutputDirectoryXamlAppDefs        1 calls
         0 ms  FinalizeBuildStatus                        1 calls
-        0 ms  _GetProjectReferenceTargetFrameworkProperties   1 calls
+        0 ms  ComputeReferenceCLInput                    1 calls
+        0 ms  ResolveAssemblyReferences                  1 calls
+        0 ms  ResolveProjectReferences                   1 calls
+        0 ms  GetReferenceAssemblyPaths                  1 calls
+        0 ms  PreBuildEvent                              1 calls
+        0 ms  MakeDirsForLink                            1 calls
         0 ms  FixupCLCompileOptions                      1 calls
-        1 ms  ComputeLinkImportLibraryOutputsForClean    1 calls
-        1 ms  DoLinkOutputFilesMatch                     1 calls
-        1 ms  ResolveProjectReferences                   1 calls
-        1 ms  SplitResourcesByCulture                    1 calls
-        1 ms  GetReferenceAssemblyPaths                  1 calls
-        1 ms  Desktop_PlatformPrepareForBuild            1 calls
-        1 ms  RegisterOutput                             1 calls
-        1 ms  MakeDirsForLink                            1 calls
+        0 ms  _GetProjectReferenceTargetFrameworkProperties   1 calls
+        1 ms  ComputeCLCompileGeneratedXDCFiles          1 calls
+        1 ms  MakeDirsForBscMake                         1 calls
+        1 ms  GetResolvedWinMD                           1 calls
+        1 ms  ComputeLinkSwitches                        1 calls
+        1 ms  SetBuildDefaultEnvironmentVariables        1 calls
+        1 ms  _CheckForCompileOutputs                    1 calls
+        1 ms  MakeDirsForResourceCompile                 1 calls
+        1 ms  _PrepareForBuild                           1 calls
+        1 ms  AssignTargetPaths                          1 calls
         1 ms  MakeDirsForCl                              1 calls
-        2 ms  InitializeBuildStatus                      1 calls
-        2 ms  _CheckForInvalidConfigurationAndPlatform   1 calls
-        2 ms  PrepareForBuild                            1 calls
         2 ms  ComputeCLGeneratedLinkInputs               1 calls
-        4 ms  SetCABuildNativeEnvironmentVariables       1 calls
-        4 ms  MakeDirsForMidl                            1 calls
+        2 ms  InitializeBuildStatus                      1 calls
+        3 ms  _CheckForInvalidConfigurationAndPlatform   1 calls
+        4 ms  PrepareForBuild                            1 calls
         4 ms  WarnCompileDuplicatedFilename              1 calls
+        4 ms  SetCABuildNativeEnvironmentVariables       1 calls
         6 ms  ComputeCLOutputs                           1 calls
-      227 ms  Link                                       1 calls
-      749 ms  ClCompile                                  1 calls
+      293 ms  Link                                       1 calls
+     1052 ms  ClCompile                                  1 calls
 
 Task Performance Summary:
-        0 ms  AssignCulture                              1 calls
         0 ms  AssignProjectConfiguration                 1 calls
-        0 ms  SetEnv                                     4 calls
-        0 ms  Touch                                      2 calls
-        0 ms  AssignTargetPath                           6 calls
+        0 ms  SetEnvironmentVariable                     1 calls
+        0 ms  ReadLinesFromFile                          1 calls
+        0 ms  AssignCulture                              1 calls
         0 ms  Delete                                     1 calls
-        0 ms  Message                                    3 calls
         0 ms  MSBuild                                    1 calls
-        1 ms  ReadLinesFromFile                          1 calls
-        1 ms  SetEnvironmentVariable                     1 calls
+        1 ms  SetEnv                                     4 calls
+        1 ms  AssignTargetPath                           6 calls
+        1 ms  Message                                    3 calls
         1 ms  WriteLinesToFile                           1 calls
-        5 ms  MakeDir                                    9 calls
-      223 ms  Link                                       1 calls
-      746 ms  CL                                         1 calls
+        1 ms  Touch                                      2 calls
+        2 ms  MakeDir                                    9 calls
+      290 ms  Link                                       1 calls
+     1048 ms  CL                                         1 calls
 
 Build succeeded.
 
                    "E:\Shagufta\Workspace\Opengl\Unagi_2.0\Unagi_2.0\Unagi_2.0.vcxproj" (Build target) (1) ->
                    (ClCompile target) -> 
-                     e:\shagufta\workspace\opengl\unagi_2.0\unagi_2.0\sources\source.cpp(39): warning C4305: 'initializing': truncation from 'double' to 'float'
+                     e:\shagufta\workspace\opengl\unagi_2.0\unagi_2.0\sources\source.cpp(42): warning C4305: 'initializing': truncation from 'double' to 'float'
 
     1 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:01.02
+Time Elapsed 00:00:01.39
