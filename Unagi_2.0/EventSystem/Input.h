@@ -1,6 +1,7 @@
 #pragma once
 #include "../Windows/Window.h"
 #include "../Scene/Scene.h"
+#include "Selection.h"
 
 namespace EventSystem
 {
@@ -9,6 +10,7 @@ namespace EventSystem
     public:
 
         Input(UI::WindowPtr window, EnvironmentScene::Scene* scene);
+        ~Input();
 
         bool        KeyPressed(std::string key);
         bool        IsKeyPressed(int keyVal);
@@ -19,6 +21,9 @@ namespace EventSystem
 
         void        GetHoveredObject(const Vector2& p,bool transformed);
 
+        Selection   hovered;
+        Selection   selected;
+
         static  Vector2 mousePosition;
 
 
@@ -28,6 +33,8 @@ namespace EventSystem
         void                ProcessInput();
 
         UI::WindowPtr       m_Window;
+
+        EnvironmentScene::Scene*    m_ScenePtr;
         
 
     };

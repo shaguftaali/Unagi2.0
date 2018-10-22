@@ -25,6 +25,8 @@ namespace Graphics
     public:
         Renderer m_Renderer;
         Material*    m_Mat;
+        bool    isPickable; 
+        static int uID;
     protected:
         Transform   m_trans;
 

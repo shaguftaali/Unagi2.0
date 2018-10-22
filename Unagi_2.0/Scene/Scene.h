@@ -16,8 +16,8 @@ namespace EnvironmentScene
 
         void    Render();
         void    AddToScene(Node* node);
+        vector<Node*>   m_RenderQueue;
     private:
         Camera * camPtr;
-        vector<Node*>   m_RenderQueue;
     };
 }
